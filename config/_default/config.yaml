@@ -6,4 +6,7 @@ params:
   summary:
     position: hero
   search:
-    active: false  
+    active: true  
+  logo:
+    header: "/assets/images/monogramme-noir.svg"
+    footer: "/assets/images/monogramme-blanc.svg"
