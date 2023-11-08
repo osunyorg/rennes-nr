@@ -5,4 +5,8 @@ external_domains:
   - "*.osuny.org"
   - "osuny.s3.fr-par.scw.cloud"
   - "tile.openstreetmap.org"
+  - "youtube.com"
+  - "www.youtube.com"
+  - "img.youtube.com"
+  - "youtu.be"
 social:
