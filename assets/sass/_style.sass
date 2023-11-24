@@ -1,0 +1,29 @@
+.page__home
+    .hero:not(.hero--with-image)
+        .content
+            > h1, > hgroup
+                width: col(9)
+
+.block-call_to_action
+    .call_to_action
+        .description p 
+            @include h3
+        .actions 
+            a:first-child
+                border: $btn-border
+                &::after
+                    display: none
+                &[href^="mailto:"]
+                    @include icon-block(social-email, before)
+    @include in-page-without-sidebar
+        .block-content
+            border-bottom: 1px solid $color-border
+            padding-top: 0
+            padding-bottom: 0
+            picture
+                grid-column: 7 / 13
+                margin-right: calc(#{container-margin-x()} * -1)
+            .call_to_action
+                > div
+                    padding-top: $spacing3
+                    padding-bottom: $spacing3

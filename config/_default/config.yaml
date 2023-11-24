@@ -8,5 +8,5 @@ params:
   search:
     active: true  
   logo:
-    header: "/assets/images/monogramme-noir.svg"
+    header: "/assets/images/logo.svg"
     footer: "/assets/images/monogramme-blanc.svg"
