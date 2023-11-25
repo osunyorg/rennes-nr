@@ -7,3 +7,4 @@ fr:
   languageName: Français
   permalinks:
     posts: /ressources/:year-:month-:day-:slug/
+    persons: /equipe/:slug/
