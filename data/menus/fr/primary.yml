@@ -69,6 +69,10 @@ items:
     target: "/publications/hebergement/"
     kind: category
     children: []
+  - title: NR et culture
+    target: "/publications/nr-et-culture/"
+    kind: category
+    children: []
 - title: À propos
   target: "/a-propos/"
   kind: page
