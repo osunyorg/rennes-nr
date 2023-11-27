@@ -25,4 +25,8 @@ items:
     target: "/experimentations/acv/"
     kind: page
     children: []
+- title: Stratégie
+  target: "/strategie/"
+  kind: page
+  children: []
 
