@@ -5,8 +5,8 @@ items:
   target: "/ressources/"
   kind: page
   children: []
-- title: Agenda
-  target: "/agenda/"
+- title: Stratégie
+  target: "/strategie/"
   kind: page
   children: []
 - title: Expérimentations
@@ -21,12 +21,12 @@ items:
   target: "/equipe/"
   kind: page
   children: []
-- title: Organisations
-  target: "/organisations/"
+- title: Agenda
+  target: "/agenda/"
   kind: page
   children: []
-- title: Stratégie
-  target: "/strategie/"
+- title: Organisations
+  target: "/organisations/"
   kind: page
   children: []
 - title: Thèmes
