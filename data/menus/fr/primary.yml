@@ -29,4 +29,8 @@ items:
   target: "/strategie/"
   kind: page
   children: []
+- title: Thèmes
+  target: "/themes/"
+  kind: page
+  children: []
 
