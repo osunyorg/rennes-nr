@@ -57,21 +57,21 @@ items:
   target: "/themes/"
   kind: page
   children:
-  - title: UI web
-    target: "/themes/ui-web/"
-    kind: page
+  - title: UI Web
+    target: "/publications/ui-web/"
+    kind: category
     children: []
   - title: Intelligence artificielle
-    target: "/themes/intelligence-artificielle/"
-    kind: page
-    children: []
-  - title: NR et culture
-    target: "/themes/nr-et-culture/"
-    kind: page
+    target: "/publications/intelligence-artificielle/"
+    kind: category
     children: []
   - title: Hébergement
-    target: "/themes/hebergement/"
-    kind: page
+    target: "/publications/hebergement/"
+    kind: category
+    children: []
+  - title: NR et culture
+    target: "/publications/nr-et-culture/"
+    kind: category
     children: []
 - title: À propos
   target: "/a-propos/"
