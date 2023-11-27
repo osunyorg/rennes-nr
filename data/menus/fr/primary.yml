@@ -25,16 +25,16 @@ items:
   target: "/themes/"
   kind: page
   children: []
+- title: À propos
+  target: "/a-propos/"
+  kind: page
+  children: []
 - title: Agenda
   target: "/agenda/"
   kind: page
   children: []
 - title: Organisations
   target: "/organisations/"
-  kind: page
-  children: []
-- title: À propos
-  target: "/a-propos/"
   kind: page
   children: []
 
