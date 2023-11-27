@@ -80,7 +80,11 @@ items:
 - title: À propos
   target: "/a-propos/"
   kind: page
-  children: []
+  children:
+  - title: Qui sommes-nous ?
+    target: "/a-propos/qui-sommes-nous/"
+    kind: page
+    children: []
 - title: Agenda
   target: "/agenda/"
   kind: page
