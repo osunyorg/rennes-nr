@@ -6,6 +6,6 @@ fr:
   languageCode: fr
   languageName: Français
   permalinks:
-    posts: /ressources/:year-:month-:day-:slug/
+    posts: /publications/:year-:month-:day-:slug/
     persons: /equipe/:slug/
-    authors: /equipe/:slug/ressources/
+    authors: /equipe/:slug/publications/
