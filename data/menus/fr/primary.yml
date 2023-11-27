@@ -60,7 +60,11 @@ items:
 - title: Thèmes
   target: "/themes/"
   kind: page
-  children: []
+  children:
+  - title: UI web
+    target: "/themes/ui-web/"
+    kind: page
+    children: []
 - title: À propos
   target: "/a-propos/"
   kind: page
