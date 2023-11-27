@@ -37,6 +37,10 @@ items:
     target: "/equipe/feuille-de-route/"
     kind: page
     children: []
+  - title: Intervention
+    target: "/equipe/intervention/"
+    kind: page
+    children: []
 - title: Expérimentations
   target: "/experimentations/"
   kind: page
