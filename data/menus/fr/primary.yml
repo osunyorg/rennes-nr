@@ -61,6 +61,10 @@ items:
     target: "/publications/ui-web/"
     kind: category
     children: []
+  - title: Intelligence artificielle
+    target: "/publications/intelligence-artificielle/"
+    kind: category
+    children: []
 - title: À propos
   target: "/a-propos/"
   kind: page
