@@ -8,7 +8,11 @@ items:
 - title: Stratégie
   target: "/strategie/"
   kind: page
-  children: []
+  children:
+  - title: Labellisation numérique responsable
+    target: "/strategie/labellisation-numerique-responsable/"
+    kind: page
+    children: []
 - title: Équipe
   target: "/equipe/"
   kind: page
