@@ -57,10 +57,6 @@ items:
   target: "/themes/"
   kind: page
   children:
-  - title: UI web
-    target: "/themes/ui-web/"
-    kind: page
-    children: []
   - title: Intelligence artificielle
     target: "/themes/intelligence-artificielle/"
     kind: page
