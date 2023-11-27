@@ -33,6 +33,10 @@ items:
     target: "/equipe/presentation/"
     kind: page
     children: []
+  - title: Feuille de route
+    target: "/equipe/feuille-de-route/"
+    kind: page
+    children: []
 - title: Expérimentations
   target: "/experimentations/"
   kind: page
@@ -43,10 +47,6 @@ items:
     children: []
   - title: Écosytème web des Champs Libres
     target: "/experimentations/ecosyteme-web-des-champs-libres/"
-    kind: page
-    children: []
-  - title: Feuille de route
-    target: "/experimentations/feuille-de-route/"
     kind: page
     children: []
 - title: Thèmes
