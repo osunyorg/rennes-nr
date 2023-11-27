@@ -45,6 +45,10 @@ items:
     target: "/experimentations/ecosyteme-web-des-champs-libres/"
     kind: page
     children: []
+  - title: Feuille de route
+    target: "/experimentations/feuille-de-route/"
+    kind: page
+    children: []
 - title: Thèmes
   target: "/themes/"
   kind: page
