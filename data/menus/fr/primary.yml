@@ -1,10 +1,6 @@
 ---
 title: Menu principal
 items:
-- title: Ressources
-  target: "/ressources/"
-  kind: page
-  children: []
 - title: Stratégie
   target: "/strategie/"
   kind: page
