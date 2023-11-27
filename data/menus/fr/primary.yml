@@ -69,6 +69,10 @@ items:
     target: "/themes/intelligence-artificielle/"
     kind: page
     children: []
+  - title: NR et culture
+    target: "/themes/nr-et-culture/"
+    kind: page
+    children: []
 - title: À propos
   target: "/a-propos/"
   kind: page
