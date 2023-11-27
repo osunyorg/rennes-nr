@@ -17,6 +17,10 @@ items:
     target: "/strategie/plan-pour-la-metropole/"
     kind: page
     children: []
+  - title: Plan NR LCL
+    target: "/strategie/plan-nr-lcl/"
+    kind: page
+    children: []
 - title: Équipe
   target: "/equipe/"
   kind: page
