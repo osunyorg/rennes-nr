@@ -93,8 +93,4 @@ items:
     target: "/a-propos/modalites/"
     kind: page
     children: []
-- title: Organisations
-  target: "/organisations/"
-  kind: page
-  children: []
 
