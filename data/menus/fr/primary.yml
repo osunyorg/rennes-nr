@@ -9,14 +9,6 @@ items:
   target: "/agenda/"
   kind: page
   children: []
-- title: Équipe
-  target: "/equipe/"
-  kind: page
-  children: []
-- title: Organisations
-  target: "/organisations/"
-  kind: page
-  children: []
 - title: Expérimentations
   target: "/experimentations/"
   kind: page
@@ -25,6 +17,14 @@ items:
     target: "/experimentations/acv/"
     kind: page
     children: []
+- title: Équipe
+  target: "/equipe/"
+  kind: page
+  children: []
+- title: Organisations
+  target: "/organisations/"
+  kind: page
+  children: []
 - title: Stratégie
   target: "/strategie/"
   kind: page
