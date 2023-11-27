@@ -57,10 +57,6 @@ items:
   target: "/themes/"
   kind: page
   children:
-  - title: NR et culture
-    target: "/themes/nr-et-culture/"
-    kind: page
-    children: []
   - title: Hébergement
     target: "/themes/hebergement/"
     kind: page
