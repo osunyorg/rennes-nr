@@ -4,6 +4,14 @@
             > h1, > hgroup
                 width: col(9)
 
+.post 
+    .post-categories
+        a
+            color: inherit
+            text-decoration: none
+            padding: space(2) space(3) 
+            background: $color-background-accent
+
 .block-call_to_action
     .call_to_action
         .description p 
@@ -31,3 +39,33 @@
                 > div
                     padding-top: $spacing3
                     padding-bottom: $spacing3
+
+
+.block-posts
+    .list
+        .media
+            display: none
+        @include in-page-without-sidebar
+            article
+                display: block
+            .post-content
+                @include grid(12, false, 0)
+                width: 100%
+                [itemprop='headline']
+                    @include h1
+                    font-weight: bold
+                .post-meta
+                    position: relative
+                    grid-row: 2
+                    margin-top: $spacing0
+                    time
+                        @include h3
+                .post-categories
+                    margin-top: space(9)
+
+                [itemprop='headline'], .post-meta, .post-categories
+                    grid-column: 7 span
+                [itemprop='articleBody']
+                    grid-column: 5 span
+                    grid-row: 1 / 5 span
+                    order: 4
