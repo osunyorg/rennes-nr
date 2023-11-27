@@ -29,6 +29,10 @@ items:
     target: "/equipe/methodologie/"
     kind: page
     children: []
+  - title: Présentation
+    target: "/equipe/presentation/"
+    kind: page
+    children: []
 - title: Expérimentations
   target: "/experimentations/"
   kind: page
