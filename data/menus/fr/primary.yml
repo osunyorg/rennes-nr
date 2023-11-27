@@ -13,6 +13,10 @@ items:
     target: "/strategie/labellisation-numerique-responsable/"
     kind: page
     children: []
+  - title: Plan pour la métropole
+    target: "/strategie/plan-pour-la-metropole/"
+    kind: page
+    children: []
 - title: Équipe
   target: "/equipe/"
   kind: page
