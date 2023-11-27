@@ -73,6 +73,10 @@ items:
     target: "/themes/nr-et-culture/"
     kind: page
     children: []
+  - title: Hébergement
+    target: "/themes/hebergement/"
+    kind: page
+    children: []
 - title: À propos
   target: "/a-propos/"
   kind: page
