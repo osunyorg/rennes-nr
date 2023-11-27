@@ -21,4 +21,8 @@ items:
   target: "/acv/"
   kind: page
   children: []
+- title: Expérimentations
+  target: "/experimentations/"
+  kind: page
+  children: []
 
