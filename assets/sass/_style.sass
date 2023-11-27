@@ -42,6 +42,10 @@
 
 
 .block-posts
+    .top
+        .block-title
+            @include h3
+            font-weight: bold
     .list
         .media
             display: none
@@ -69,3 +73,16 @@
                     grid-column: 5 span
                     grid-row: 1 / 5 span
                     order: 4
+
+.block-persons
+    @include in-page-without-sidebar
+        .persons
+            grid-template-columns: repeat(3, 1fr) !important
+            .person
+                flex-direction: column
+                gap: $spacing1
+                .description
+                    text-align: center
+                .avatar
+                    align-self: center
+                    width: col(2, 4)
