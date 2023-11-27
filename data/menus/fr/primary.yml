@@ -65,6 +65,10 @@ items:
     target: "/publications/intelligence-artificielle/"
     kind: category
     children: []
+  - title: Hébergement
+    target: "/publications/hebergement/"
+    kind: category
+    children: []
 - title: À propos
   target: "/a-propos/"
   kind: page
