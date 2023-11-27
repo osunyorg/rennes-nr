@@ -56,11 +56,7 @@ items:
 - title: Thèmes
   target: "/themes/"
   kind: page
-  children:
-  - title: Hébergement
-    target: "/themes/hebergement/"
-    kind: page
-    children: []
+  children: []
 - title: À propos
   target: "/a-propos/"
   kind: page
