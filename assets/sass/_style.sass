@@ -86,3 +86,35 @@
                 .avatar
                     align-self: center
                     width: col(2, 4)
+
+footer#document-footer
+    @include media-breakpoint-up(md)
+        position: relative
+        padding-right: col(7)
+        > .container
+            flex-direction: column
+            gap: $spacing2
+            + .container
+                align-items: start
+        .footer-social
+            text-align: left
+        &:after
+            content: ''
+            background: $color-accent
+            width: col(7)
+            position: absolute
+            height: 100%
+            top: 0
+            right: 0
+        &:before
+            content: ''
+            background-image: url('../images/amazon.jpg')
+            width: col(5)
+            position: absolute
+            height: 100%
+            background-size: contain
+            background-repeat: no-repeat
+            background-position: center
+            top: 0
+            right: col(1.5)
+            z-index: 2
