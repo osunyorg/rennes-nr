@@ -24,7 +24,11 @@ items:
 - title: Équipe
   target: "/equipe/"
   kind: page
-  children: []
+  children:
+  - title: Méthodologie
+    target: "/equipe/methodologie/"
+    kind: page
+    children: []
 - title: Expérimentations
   target: "/experimentations/"
   kind: page
