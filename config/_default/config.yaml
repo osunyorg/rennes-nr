@@ -6,7 +6,10 @@ params:
   summary:
     position: hero
   search:
-    active: true  
+    active: true
   logo:
     header: "/assets/images/logo.svg"
     footer: "/assets/images/monogramme-blanc.svg"
+  menu:
+    dropdown:
+      linkToLevel1: true
