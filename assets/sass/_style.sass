@@ -1,4 +1,13 @@
+.heading
+    @include in-page-with-sidebar
+        h2
+            @include h3
+            font-weight: bold
+
 .page__home
+    .hero
+        h1
+            font-weight: normal
     @include media-breakpoint-up(desktop)
         .hero:not(.hero--with-image)
             .content
@@ -7,13 +16,39 @@
         .block-call_to_action:first-child
             margin-top: -$spacing3
 
-.post
-    .post-categories
-        a
-            color: inherit
-            text-decoration: none
-            padding: space(2) space(3) 
-            background: $color-background-accent
+.posts__page
+    &:not(.full-width)
+        .block-summary
+            background: $color-accent
+            .block-content
+                padding: $spacing1 0
+            @include media-breakpoint-up(desktop)
+                position: relative
+                z-index: $zindex-aside + 1
+                text-align: center
+                margin-top: -$spacing3
+                .block-content
+                    padding: $spacing3 offset(1) !important
+    .hero
+        background: $color-background
+        color: $color-text
+        .breadcrumb li
+            a, span
+                color: $color-text
+
+.post-infos
+    a
+        color: inherit
+        text-decoration-color: $color-accent
+        text-decoration-thickness: pxToRem(2)
+
+.post .post-categories, .post-categories
+    a
+        color: inherit
+        text-decoration: none
+        padding: space(2) space(3) 
+        background: $color-background-accent
+        display: inline-block
 
 .block-call_to_action
     .call_to_action
@@ -35,7 +70,6 @@
                     &:hover
                         &::before
                             filter: invert(1)
-
     @include in-page-without-sidebar
         .block-content
             border-bottom: 1px solid $color-border
@@ -53,34 +87,43 @@
                     padding-top: $spacing3
                     padding-bottom: $spacing3
 
-
-.block-posts
-    .list
-        .media
-            display: none
-        @include in-page-without-sidebar
-            article
+.posts.posts--list
+    @include media-breakpoint-down(desktop)
+        article
+            .post-content p:not(.title)
                 display: block
-            .post-content
-                @include grid(12, false, 0)
-                width: 100%
-                [itemprop='headline']
-                    @include h1
-                    font-weight: bold
-                .post-meta
-                    position: relative
-                    grid-row: 2
-                    margin-top: $spacing0
-                    time
-                        @include h3
-                .post-categories
-                    margin-top: space(9)
-                [itemprop='headline'], .post-meta, .post-categories
-                    grid-column: 7 span
-                [itemprop='articleBody']
-                    grid-column: 5 span
-                    grid-row: 1 / 5 span
-                    order: 4
+
+.block-posts .list,
+.posts.posts--list
+    .media
+        display: none
+    @include in-page-without-sidebar
+        article
+            display: block
+        .post-content
+            @include grid(12, false, 0)
+            width: 100%
+            [itemprop='headline']
+                @include h1
+                font-weight: bold
+            .post-meta
+                position: relative
+                grid-row: 2
+                margin-top: $spacing0
+                text-align: left
+                time
+                    @include h3
+            .post-categories
+                margin-top: space(9)
+            [itemprop='headline'], .post-meta, .post-categories
+                grid-column: 7 span
+                max-width: none
+            [itemprop='articleBody']
+                grid-column: 5 span
+                grid-row: 1 / 5 span
+                order: 4
+                max-width: none
+
 
 .block-persons
     @include in-page-without-sidebar
@@ -101,6 +144,11 @@
             .chapter
                 border-bottom: 1px solid $color-border
                 padding-bottom: $spacing3
+
+.toc
+    ol
+        .active
+            text-decoration: $color-accent underline
 
 footer#document-footer
     @include media-breakpoint-up(md)
