@@ -151,6 +151,27 @@
             text-decoration: $color-accent underline
 
 footer#document-footer
+    @include media-breakpoint-down(md)
+        padding-bottom: 0
+        &:after
+            content: ''
+            display: block
+            margin-top: $spacing3
+            background-color: $color-accent
+            background-image: url('../images/amazon.jpg')
+            width: 100%
+            padding-top: 50%
+            border: $spacing3 solid transparent
+            background-size: contain
+            background-repeat: no-repeat
+            background-position: center
+            top: 0
+            right: col(1.5)
+            z-index: 2
+    @include media-breakpoint-down(sm)
+        &:after
+            padding-top: 100%
+            border-width: 0
     @include media-breakpoint-up(md)
         position: relative
         padding-right: col(7)
@@ -161,7 +182,7 @@ footer#document-footer
                 align-items: start
         .footer-social
             text-align: left
-        &:after
+        &:before
             content: ''
             background: $color-accent
             width: col(7)
@@ -169,7 +190,7 @@ footer#document-footer
             height: 100%
             top: 0
             right: 0
-        &:before
+        &:after
             content: ''
             background-image: url('../images/amazon.jpg')
             width: col(5)
