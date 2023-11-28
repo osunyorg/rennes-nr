@@ -22,7 +22,17 @@
                 &::after
                     display: none
                 &[href^="mailto:"]
-                    @include icon-block(social-email, before)
+                    &::before
+                        content: url(../images/mail.svg)
+                        display: inline-block
+                        vertical-align: middle
+                        line-height: 1
+                        margin-right: space(3)
+                        transition: 0.3s
+                    &:hover
+                        &::before
+                            filter: invert(1)
+
     @include in-page-without-sidebar
         .block-content
             border-bottom: 1px solid $color-border
