@@ -1,8 +1,11 @@
 .page__home
-    .hero:not(.hero--with-image)
-        .content
-            > h1, > hgroup
-                width: col(9)
+    @include media-breakpoint-up(desktop)
+        .hero:not(.hero--with-image)
+            .content
+                > h1, > hgroup
+                    width: col(9)
+        .block-call_to_action:first-child
+            margin-top: -$spacing3
 
 .post 
     .post-categories
