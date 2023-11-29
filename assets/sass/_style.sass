@@ -123,6 +123,29 @@
                 grid-row: 1 / 5 span
                 order: 4
                 max-width: none
+.block-posts
+    .categories--grid
+        li
+            overflow: hidden
+            background: $color-background-accent
+            &::after
+                -webkit-text-stroke-width: pxToRem(5)
+                -webkit-text-stroke-color: $color-accent
+                content: attr(data-title)
+                position: absolute
+                bottom: pxToRem(-25)
+                font-size: pxToRem(120)
+                left: 60%
+                line-height: 1
+                color: transparent
+                white-space: nowrap
+                font-weight: bold
+                opacity: 0.15
+            @include media-breakpoint-up(md)
+                aspect-ratio: 1
+                &::after
+                    font-size: pxToRem(150)
+                    left: 50%
 
 
 .block-persons
