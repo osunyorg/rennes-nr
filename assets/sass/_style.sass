@@ -1,3 +1,7 @@
+main
+    @include media-breakpoint-up(desktop)
+        margin-bottom: space(44)
+
 .heading
     @include in-page-with-sidebar
         h2
@@ -49,10 +53,13 @@
         padding: space(2) space(3) 
         background: $color-background-accent
         display: inline-block
+        transition: background 0.35s
+        &:hover
+            background: $color-accent
 
 .block-call_to_action
     .call_to_action
-        .description p 
+        .description p
             @include h3
         .actions 
             a:first-child
@@ -71,8 +78,8 @@
                         &::before
                             filter: invert(1)
     @include in-page-without-sidebar
+        border-bottom: 1px solid $color-border
         .block-content
-            border-bottom: 1px solid $color-border
             padding-top: 0
             padding-bottom: 0
             picture
@@ -131,6 +138,15 @@
         li
             overflow: hidden
             background: $color-background-accent
+            border-radius: pxToRem(5)
+            transition: background 0.35s
+            @include media-breakpoint-up(xxl)
+                padding: space(10)
+            &:hover
+                background: $color-accent
+                &::after
+                    transition: -webkit-text-stroke-color 0.35s
+                    -webkit-text-stroke-color: $color-background-accent
             &::after
                 -webkit-text-stroke-width: pxToRem(5)
                 -webkit-text-stroke-color: $color-accent
@@ -150,7 +166,6 @@
                     font-size: pxToRem(150)
                     left: 50%
 
-
 .block-persons
     @include in-page-without-sidebar
         .persons
@@ -160,6 +175,7 @@
                 gap: $spacing1
                 .description
                     text-align: center
+                    @include body-text
                 .avatar
                     align-self: center
                     width: col(2, 4)
