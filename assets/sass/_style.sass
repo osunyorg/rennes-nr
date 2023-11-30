@@ -176,6 +176,19 @@
         .active
             text-decoration: $color-accent underline
 
+.menu
+    @include media-breakpoint-up(desktop)
+        .dropdown-menu 
+            padding-top: space(25)
+            .dropdown-menu-title
+                @include h1
+                font-weight: normal
+        .nav-level-2
+            li
+                margin-bottom: 0 !important
+                > span, > a
+                    line-height: pxToRem(54)
+
 footer#document-footer
     @include media-breakpoint-down(md)
         padding-bottom: 0
