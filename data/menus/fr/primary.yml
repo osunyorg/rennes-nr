@@ -57,26 +57,6 @@ items:
     target: "/experimentations/ecosyteme-web-des-champs-libres/"
     kind: page
     children: []
-- title: Thèmes
-  target: "/themes/"
-  kind: page
-  children:
-  - title: UI Web
-    target: "/publications/ui-web/"
-    kind: category
-    children: []
-  - title: Intelligence artificielle
-    target: "/publications/intelligence-artificielle/"
-    kind: category
-    children: []
-  - title: Hébergement
-    target: "/publications/hebergement/"
-    kind: category
-    children: []
-  - title: NR et culture
-    target: "/publications/nr-et-culture/"
-    kind: category
-    children: []
 - title: À propos
   target: "/a-propos/"
   kind: page
