@@ -5,20 +5,20 @@ items:
   target: "/strategie/"
   kind: page
   children:
-  - title: Labellisation numérique responsable
-    target: "/strategie/labellisation-numerique-responsable/"
-    kind: page
-    children: []
-  - title: Plan pour la métropole
-    target: "/strategie/plan-pour-la-metropole/"
+  - title: Feuille de route
+    target: "/strategie/feuille-de-route-1/"
     kind: page
     children: []
   - title: Plan NR LCL
     target: "/strategie/plan-nr-lcl/"
     kind: page
     children: []
-  - title: Feuille de route
-    target: "/strategie/feuille-de-route-1/"
+  - title: Labellisation numérique responsable
+    target: "/strategie/labellisation-numerique-responsable/"
+    kind: page
+    children: []
+  - title: Plan pour la métropole
+    target: "/strategie/plan-pour-la-metropole/"
     kind: page
     children: []
 - title: Équipe
