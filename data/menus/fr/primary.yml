@@ -33,7 +33,7 @@ items:
     target: "/equipe/methodologie/"
     kind: page
     children: []
-  - title: Coalition
+  - title: Coalitions
     target: "/equipe/coalition/"
     kind: page
     children: []
