@@ -5,7 +5,7 @@ items:
   target: "/strategie/"
   kind: page
   children:
-  - title: Feuille de route
+  - title: Notre feuille de route
     target: "/strategie/feuille-de-route-1/"
     kind: page
     children: []
