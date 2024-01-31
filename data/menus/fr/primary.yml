@@ -73,8 +73,4 @@ items:
     target: "/a-propos/pourquoi-un-wiki/"
     kind: page
     children: []
-  - title: Modalités
-    target: "/a-propos/modalites/"
-    kind: page
-    children: []
 
