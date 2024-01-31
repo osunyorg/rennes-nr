@@ -45,7 +45,7 @@ items:
   target: "/experimentations/"
   kind: page
   children:
-  - title: ACV
+  - title: "⚡ ACV"
     target: "/experimentations/acv/"
     kind: page
     children: []
