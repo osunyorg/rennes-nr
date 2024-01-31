@@ -57,6 +57,10 @@ items:
     target: ''
     kind: blank
     children: []
+  - title: Module photos Les Champs Libres
+    target: ''
+    kind: blank
+    children: []
 - title: À propos
   target: "/a-propos/"
   kind: page
