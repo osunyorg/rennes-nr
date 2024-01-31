@@ -2,7 +2,7 @@
 title: Informations légales
 items:
 - title: À propos
-  target: "/mentions-legales/"
+  target: "/a-propos/"
   kind: page
   children: []
 - title: Politique de confidentialité
