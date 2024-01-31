@@ -17,7 +17,7 @@ items:
     target: "/strategie/labellisation-numerique-responsable/"
     kind: page
     children: []
-  - title: Plan pour la métropole
+  - title: Plan pour la Métropole
     target: "/strategie/plan-pour-la-metropole/"
     kind: page
     children: []
