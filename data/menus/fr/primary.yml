@@ -37,7 +37,7 @@ items:
     target: "/equipe/coalition/"
     kind: page
     children: []
-  - title: Intervention
+  - title: Interventions
     target: "/equipe/intervention/"
     kind: page
     children: []
