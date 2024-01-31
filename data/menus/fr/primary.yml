@@ -9,7 +9,7 @@ items:
     target: "/strategie/feuille-de-route-1/"
     kind: page
     children: []
-  - title: Plan NR LCL
+  - title: Plan NR Les Champs Libres
     target: "/strategie/plan-nr-lcl/"
     kind: page
     children: []
