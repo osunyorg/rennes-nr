@@ -53,6 +53,10 @@ items:
     target: "/experimentations/ecosyteme-web-des-champs-libres/"
     kind: page
     children: []
+  - title: Dimanche à Rennes
+    target: ''
+    kind: blank
+    children: []
 - title: À propos
   target: "/a-propos/"
   kind: page
