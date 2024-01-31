@@ -33,12 +33,12 @@ items:
     target: "/equipe/methodologie/"
     kind: page
     children: []
-  - title: Intervention
-    target: "/equipe/intervention/"
-    kind: page
-    children: []
   - title: Coalition
     target: "/equipe/coalition/"
+    kind: page
+    children: []
+  - title: Intervention
+    target: "/equipe/intervention/"
     kind: page
     children: []
 - title: Expérimentations
