@@ -69,10 +69,6 @@ items:
   target: "/a-propos/"
   kind: page
   children:
-  - title: Qui sommes-nous ?
-    target: "/a-propos/qui-sommes-nous/"
-    kind: page
-    children: []
   - title: Pourquoi un wiki ?
     target: "/a-propos/pourquoi-un-wiki/"
     kind: page
