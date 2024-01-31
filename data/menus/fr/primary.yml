@@ -65,12 +65,4 @@ items:
   target: "/outils/"
   kind: page
   children: []
-- title: À propos
-  target: "/a-propos/"
-  kind: page
-  children:
-  - title: Pourquoi un wiki ?
-    target: "/a-propos/pourquoi-un-wiki/"
-    kind: page
-    children: []
 
