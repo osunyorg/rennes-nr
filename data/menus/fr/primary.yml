@@ -25,12 +25,12 @@ items:
   target: "/equipe/"
   kind: page
   children:
-  - title: Méthodologie
-    target: "/equipe/methodologie/"
-    kind: page
-    children: []
   - title: Présentation
     target: "/equipe/presentation/"
+    kind: page
+    children: []
+  - title: Méthodologie
+    target: "/equipe/methodologie/"
     kind: page
     children: []
   - title: Feuille de route
