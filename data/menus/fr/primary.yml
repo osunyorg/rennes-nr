@@ -33,10 +33,6 @@ items:
     target: "/equipe/methodologie/"
     kind: page
     children: []
-  - title: Feuille de route
-    target: "/equipe/feuille-de-route/"
-    kind: page
-    children: []
   - title: Intervention
     target: "/equipe/intervention/"
     kind: page
