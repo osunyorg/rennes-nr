@@ -61,6 +61,10 @@ items:
     target: ''
     kind: blank
     children: []
+- title: Outils
+  target: "/outils/"
+  kind: page
+  children: []
 - title: À propos
   target: "/a-propos/"
   kind: page
