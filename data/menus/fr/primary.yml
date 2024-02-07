@@ -61,6 +61,10 @@ items:
     target: "/experimentations/dar/"
     kind: page
     children: []
+  - title: Les Champs Libres
+    target: ''
+    kind: blank
+    children: []
 - title: Outils
   target: "/outils/"
   kind: page
