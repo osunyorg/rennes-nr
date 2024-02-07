@@ -54,8 +54,8 @@ items:
     kind: page
     children: []
   - title: Dimanche à Rennes
-    target: ''
-    kind: blank
+    target: "/experimentations/dar/"
+    kind: page
     children: []
   - title: Module photos Les Champs Libres
     target: ''
