@@ -49,6 +49,10 @@ items:
     target: "/experimentations/acv/"
     kind: page
     children: []
+  - title: Les Champs Libres
+    target: ''
+    kind: blank
+    children: []
   - title: Écosytème web des Champs Libres
     target: "/experimentations/ecosyteme-web-des-champs-libres/"
     kind: page
@@ -60,10 +64,6 @@ items:
   - title: Dimanche à Rennes
     target: "/experimentations/dar/"
     kind: page
-    children: []
-  - title: Les Champs Libres
-    target: ''
-    kind: blank
     children: []
 - title: Outils
   target: "/outils/"
