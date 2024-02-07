@@ -37,6 +37,10 @@ items:
     target: "/equipe/intervention/"
     kind: page
     children: []
+  - title: Annuaire des coopérateurs
+    target: "/equipe/coalitions/"
+    kind: page
+    children: []
 - title: Expérimentations
   target: "/experimentations/"
   kind: page
