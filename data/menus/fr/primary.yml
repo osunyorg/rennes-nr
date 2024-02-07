@@ -61,6 +61,10 @@ items:
     target: ''
     kind: blank
     children: []
+  - title: DAR
+    target: "/experimentations/dar/"
+    kind: page
+    children: []
 - title: Outils
   target: "/outils/"
   kind: page
