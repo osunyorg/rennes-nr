@@ -57,7 +57,7 @@ items:
     target: ''
     kind: blank
     children: []
-  - title: DAR
+  - title: Dimanche à Rennes
     target: "/experimentations/dar/"
     kind: page
     children: []
