@@ -49,7 +49,7 @@ items:
     target: "/experimentations/acv/"
     kind: page
     children: []
-  - title: Écosytème web des Champs Libres
+  - title: Écosystème web des Champs Libres
     target: "/experimentations/ecosyteme-web-des-champs-libres/"
     kind: page
     children: []
