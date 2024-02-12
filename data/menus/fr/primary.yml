@@ -33,12 +33,12 @@ items:
     target: "/equipe/methodologie/"
     kind: page
     children: []
-  - title: Interventions
-    target: "/equipe/intervention/"
-    kind: page
-    children: []
   - title: Avec qui faisons-nous ?
     target: "/equipe/presentation/"
+    kind: page
+    children: []
+  - title: Interventions
+    target: "/equipe/intervention/"
     kind: page
     children: []
 - title: Expérimentations
