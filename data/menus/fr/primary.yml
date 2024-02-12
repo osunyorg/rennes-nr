@@ -49,15 +49,11 @@ items:
     target: "/experimentations/acv/"
     kind: page
     children: []
-  - title: Les Champs Libres
-    target: ''
-    kind: blank
-    children: []
   - title: Écosytème web des Champs Libres
     target: "/experimentations/ecosyteme-web-des-champs-libres/"
     kind: page
     children: []
-  - title: Module photos Les Champs Libres
+  - title: Module photos
     target: ''
     kind: blank
     children: []
