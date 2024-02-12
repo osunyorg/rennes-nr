@@ -29,7 +29,7 @@ items:
     target: "/equipe/equipe-editoriale/"
     kind: page
     children: []
-  - title: Méthodologie
+  - title: Comment faisons-nous ?
     target: "/equipe/methodologie/"
     kind: page
     children: []
