@@ -37,6 +37,10 @@ items:
     target: "/equipe/intervention/"
     kind: page
     children: []
+  - title: Avec qui faisons-nous ?
+    target: "/equipe/presentation/"
+    kind: page
+    children: []
 - title: Expérimentations
   target: "/experimentations/"
   kind: page
