@@ -57,6 +57,10 @@ items:
     target: "/experimentations/dar/"
     kind: page
     children: []
+  - title: Écosystème web des Champs Libres
+    target: "/publications/2024-01-01-ecosysteme-web-des-champs-libres-1/"
+    kind: post
+    children: []
 - title: Outils
   target: "/outils/"
   kind: page
