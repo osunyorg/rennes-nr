@@ -38,7 +38,7 @@ items:
     kind: page
     children: []
   - title: Interventions
-    target: "/equipe/intervention/"
+    target: "/equipe/interventions/"
     kind: page
     children: []
 - title: Expérimentations
