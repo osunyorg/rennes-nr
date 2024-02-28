@@ -17,3 +17,5 @@ params:
     index:
       show_categories: true
       show_description: true
+  debug:
+     productionUrl: "https://comnum.rennes.fr"

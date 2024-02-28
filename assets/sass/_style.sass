@@ -16,23 +16,23 @@ main
         .hero:not(.hero--with-image)
             .content
                 > h1, > hgroup
-                    width: col(9)
+                    width: columns(9)
         .block-call_to_action:first-child
-            margin-top: -$spacing3
+            margin-top: -$spacing-5
 
 .posts__page
     &:not(.full-width)
         .block-summary
             background: $color-accent
             .block-content
-                padding: $spacing1 0
+                padding: $spacing-3 0
             @include media-breakpoint-up(desktop)
                 position: relative
                 z-index: $zindex-aside + 1
                 text-align: center
-                margin-top: -$spacing3
+                margin-top: -$spacing-5
                 .block-content
-                    padding: $spacing3 offset(1) !important
+                    padding: $spacing-5 offset(1) !important
     .hero
         background: $color-background
         color: $color-text
@@ -84,7 +84,7 @@ main
             padding-bottom: 0
             picture
                 grid-column: 7 / 13
-                margin-right: calc(#{container-margin-x()} * -1)
+                margin-right: var(--grid-gutter-negative)
                 img
                     height: 100%
                     width: 100%
@@ -94,8 +94,8 @@ main
                     display: flex
                     flex-direction: column
                     justify-content: center
-                    padding-top: $spacing3
-                    padding-bottom: $spacing3
+                    padding-top: $spacing-5
+                    padding-bottom: $spacing-5
 
 .posts.posts--list
     @include media-breakpoint-down(desktop)
@@ -119,7 +119,7 @@ main
             .post-meta
                 position: relative
                 grid-row: 2
-                margin-top: $spacing0
+                margin-top: $spacing-2
                 text-align: left
                 time
                     @include h3
@@ -172,20 +172,20 @@ main
             grid-template-columns: repeat(3, 1fr) !important
             .person
                 flex-direction: column
-                gap: $spacing1
+                gap: $spacing-3
                 .description
                     text-align: center
                     @include body-text
                 .avatar
                     align-self: center
-                    width: col(2, 4)
+                    width: 128px !important
 
 .block-chapter
     @include in-page-with-sidebar
         &:not(:last-child)
             .chapter
                 border-bottom: 1px solid $color-border
-                padding-bottom: $spacing3
+                padding-bottom: $spacing-5
 
 .toc
     ol
@@ -211,17 +211,17 @@ footer#document-footer
         &:after
             content: ''
             display: block
-            margin-top: $spacing3
+            margin-top: $spacing-5
             background-color: $color-accent
             background-image: url('../images/amazon.jpg')
             width: 100%
             padding-top: 50%
-            border: $spacing3 solid transparent
+            border: $spacing-5 solid transparent
             background-size: contain
             background-repeat: no-repeat
             background-position: center
             top: 0
-            right: col(1.5)
+            right: columns(1.5)
             z-index: 2
     @include media-breakpoint-down(sm)
         &:after
@@ -229,10 +229,10 @@ footer#document-footer
             border-width: 0
     @include media-breakpoint-up(md)
         position: relative
-        padding-right: col(7)
+        padding-right: columns(7)
         > .container
             flex-direction: column
-            gap: $spacing2
+            gap: $spacing-4
             + .container
                 align-items: start
         .footer-social
@@ -240,7 +240,7 @@ footer#document-footer
         &:before
             content: ''
             background: $color-accent
-            width: col(7)
+            width: columns(7)
             position: absolute
             height: 100%
             top: 0
@@ -248,13 +248,13 @@ footer#document-footer
         &:after
             content: ''
             background-image: url('../images/amazon.jpg')
-            width: col(5)
+            width: columns(5)
             position: absolute
             height: 100%
             background-size: contain
             background-repeat: no-repeat
             background-position: center
             top: 0
-            right: col(1.5)
+            right: columns(1.5)
             z-index: 2
 
