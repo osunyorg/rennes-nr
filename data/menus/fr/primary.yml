@@ -5,10 +5,6 @@ items:
   target: "/strategie/"
   kind: page
   children:
-  - title: Notre feuille de route
-    target: "/strategie/feuille-de-route/"
-    kind: page
-    children: []
   - title: Plan pour Les Champs Libres
     target: "/strategie/plan-nr-lcl/"
     kind: page
