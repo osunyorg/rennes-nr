@@ -34,7 +34,7 @@ items:
     kind: page
     children: []
   - title: Avec qui faisons-nous ?
-    target: "/equipe/presentation/"
+    target: "/equipe/avec-qui-faisons-nous/"
     kind: page
     children: []
   - title: Interventions
