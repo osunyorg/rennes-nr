@@ -11,8 +11,8 @@ fr:
   permalinks:
     posts: /publications/:year-:month-:day-:slug/
     posts_categories: /publications/:slug/
-    persons: /equipe/:slug/
-    authors: /equipe/:slug/publications/
+    persons: /faire-ensemble/:slug/
+    authors: /faire-ensemble/:slug/publications/
   taxonomies:
     administrator: administrators
     author: authors

@@ -22,23 +22,23 @@ items:
     kind: page
     children: []
 - title: Faire ensemble
-  target: "/equipe/"
+  target: "/faire-ensemble/"
   kind: page
   children:
   - title: Qui sommes-nous ?
-    target: "/equipe/equipe-editoriale/"
+    target: "/faire-ensemble/equipe-editoriale/"
     kind: page
     children: []
   - title: Comment faisons-nous ?
-    target: "/equipe/methodologie/"
+    target: "/faire-ensemble/methodologie/"
     kind: page
     children: []
   - title: Avec qui faisons-nous ?
-    target: "/equipe/avec-qui-faisons-nous/"
+    target: "/faire-ensemble/avec-qui-faisons-nous/"
     kind: page
     children: []
   - title: Interventions
-    target: "/equipe/interventions/"
+    target: "/faire-ensemble/interventions/"
     kind: page
     children: []
 - title: Expérimentations
