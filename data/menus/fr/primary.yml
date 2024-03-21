@@ -10,7 +10,7 @@ items:
     kind: page
     children: []
   - title: Plan pour Les Champs Libres
-    target: "/strategie/plan-nr-lcl/"
+    target: "/strategie/strategie-pour-un-numerique-soutenable-aux-champs-libres/"
     kind: page
     children: []
   - title: Labellisation numérique responsable
