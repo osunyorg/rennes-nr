@@ -26,7 +26,7 @@ items:
   kind: page
   children:
   - title: Qui sommes-nous ?
-    target: "/faire-ensemble/equipe-editoriale/"
+    target: "/faire-ensemble/qui-sommes-nous/"
     kind: page
     children: []
   - title: Comment faisons-nous ?
