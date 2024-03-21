@@ -6,7 +6,7 @@ items:
   kind: page
   children:
   - title: Notre feuille de route
-    target: "/strategie/feuille-de-route/"
+    target: "/strategie/feuille-de-route-communication-numerique-soutenable/"
     kind: page
     children: []
   - title: Plan pour Les Champs Libres
