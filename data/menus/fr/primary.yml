@@ -30,7 +30,7 @@ items:
     kind: page
     children: []
   - title: Comment faisons-nous ?
-    target: "/faire-ensemble/methodologie/"
+    target: "/faire-ensemble/comment-faisons-nous/"
     kind: page
     children: []
   - title: Avec qui faisons-nous ?
