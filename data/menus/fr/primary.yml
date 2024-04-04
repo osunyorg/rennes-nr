@@ -50,8 +50,8 @@ items:
     kind: page
     children: []
   - title: Module photos
-    target: ''
-    kind: blank
+    target: "/publications/2022-06-01-un-module-photo-low-tech/"
+    kind: post
     children: []
   - title: Dimanche à Rennes
     target: "/experimentations/dar/"
