@@ -64,5 +64,9 @@ items:
 - title: Outils
   target: "/outils/"
   kind: page
-  children: []
+  children:
+  - title: Préconisations
+    target: "/outils/preconisations-1/"
+    kind: page
+    children: []
 
