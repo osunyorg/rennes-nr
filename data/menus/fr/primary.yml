@@ -69,4 +69,12 @@ items:
     target: "/outils/preconisations-1/"
     kind: page
     children: []
+  - title: Glossaire
+    target: "/outils/glossaire/"
+    kind: page
+    children: []
+  - title: 'Bilan environnemental '
+    target: ''
+    kind: blank
+    children: []
 
