@@ -3,6 +3,7 @@ paginate: 18
 enableRobotsTXT: true
 removePathAccents: true
 params:
+  plausible: comnum.rennes.fr
   summary:
     position: content
   search:
