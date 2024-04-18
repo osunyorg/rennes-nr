@@ -73,4 +73,8 @@ items:
     target: "/outils/glossaire/"
     kind: page
     children: []
+  - title: 'Bilan environnemental '
+    target: "/outils/bilan-environnemental/"
+    kind: page
+    children: []
 
