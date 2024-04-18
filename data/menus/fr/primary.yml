@@ -45,10 +45,6 @@ items:
   target: "/experimentations/"
   kind: page
   children:
-  - title: Analyse de cycle de vie
-    target: "/experimentations/acv/"
-    kind: page
-    children: []
   - title: Module photos
     target: "/publications/2022-06-01-un-module-photo-low-tech/"
     kind: post
