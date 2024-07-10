@@ -9,4 +9,8 @@ items:
   target: "/plan-du-site/"
   kind: page
   children: []
+- title: Déclaration d’écoconception
+  target: "/declaration-decoconception/"
+  kind: page
+  children: []
 
