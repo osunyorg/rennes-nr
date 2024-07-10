@@ -25,10 +25,6 @@ items:
   target: "/faire-ensemble/"
   kind: page
   children:
-  - title: Qui sommes-nous ?
-    target: "/faire-ensemble/qui-sommes-nous/"
-    kind: page
-    children: []
   - title: Comment faisons-nous ?
     target: "/faire-ensemble/comment-faisons-nous/"
     kind: page
