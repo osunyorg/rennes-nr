@@ -49,9 +49,9 @@ header_cta:
     
   target: ""
 contents_reading_time:
-  seconds: 569
+  seconds: 570
   text: >-
-    9 minutes
+    10 minutes
 contents:
   - kind: block
     template: key_figures
@@ -189,7 +189,7 @@ contents:
     title: >-
       Stratégie - 100%
     slug: "strategie-100"
-    position: 0
+    position: 1
     rank: 2
   - kind: block
     template: chapter
@@ -426,7 +426,7 @@ contents:
     title: >-
       Spécifications - 100%
     slug: "synthese"
-    position: 1
+    position: 2
     rank: 2
   - kind: block
     template: chapter
@@ -661,9 +661,177 @@ contents:
 
   - kind: heading
     title: >-
+      Architecture - 100%
+    slug: "architecture"
+    position: 3
+    rank: 2
+  - kind: block
+    template: chapter
+    title: >-
+      3.1 validé
+    ranks:
+      self: 3
+    data:
+      layout: no_background
+      text: >-
+        <p><i>Le service numérique repose-t-il sur une architecture, des ressources ou des composants conçus pour réduire leurs propres impacts environnementaux ?</i></p><p>Front :</p><ul> <li>Osuny </li> <li>Hugo</li> </ul><p>Admin :</p><ul> <li>Osuny</li> <li>Autoscale des serveurs Scalingo </li> </ul>
+
+      notes: >-
+        
+
+
+      alt: >-
+        
+
+      credit: >-
+        
+
+
+
+  - kind: block
+    template: chapter
+    title: >-
+      3.2 validé
+    ranks:
+      self: 3
+    data:
+      layout: no_background
+      text: >-
+        <p><i>Le service numérique fonctionne-t-il sur une architecture pouvant adapter la quantité de ressources utilisées à la consommation du service ?</i></p><p>Cf 3.1<br></p>
+
+      notes: >-
+        
+
+
+      alt: >-
+        
+
+      credit: >-
+        
+
+
+
+  - kind: block
+    template: chapter
+    title: >-
+      3.3 validé
+    ranks:
+      self: 3
+    data:
+      layout: no_background
+      text: >-
+        <p><i>Le service numérique est-il en mesure de supporter l’évolution technique des protocoles ?</i></p><p>Deuxfleurs utilise l'IPv6 (directive AAAA, HTTPS avec Let's encrypt, TLS 1.2+1.3<br>KeyCDN IPv6, HTTPS, TLS 1.2+1.3 <br>Scaleway Object Storage IPv6, HTTPS, TLS 1.2+1.3 </p>
+
+      notes: >-
+        
+
+
+      alt: >-
+        
+
+      credit: >-
+        
+
+
+
+  - kind: block
+    template: chapter
+    title: >-
+      3.4 validé
+    ranks:
+      self: 3
+    data:
+      layout: no_background
+      text: >-
+        <p><i>Le service numérique garantit-il la mise à disposition de mises à jour correctives pendant toute la durée de vie prévue des équipements et des logiciels liés au service ?</i></p><p>Correctifs dans le cadre du commun numérique Osuny<br></p>
+
+      notes: >-
+        
+
+
+      alt: >-
+        
+
+      credit: >-
+        
+
+
+
+  - kind: block
+    template: chapter
+    title: >-
+      3.5 non applicable
+    ranks:
+      self: 3
+    data:
+      layout: no_background
+      text: >-
+        <p><i>Le service numérique propose-t-il d’installer des mises à jour correctives indépendamment des mises à jour évolutives de façon transparente ?</i></p>
+
+      notes: >-
+        
+
+
+      alt: >-
+        
+
+      credit: >-
+        
+
+
+
+  - kind: block
+    template: chapter
+    title: >-
+      3.6 non applicable
+    ranks:
+      self: 3
+    data:
+      layout: no_background
+      text: >-
+        <p><i>Le service numérique propose-t-il les mises à jour incrémentielles, afin de ne pas remplacer tout le code à chaque mise à jour ?</i></p>
+
+      notes: >-
+        
+
+
+      alt: >-
+        
+
+      credit: >-
+        
+
+
+
+  - kind: block
+    template: chapter
+    title: >-
+      3.7 validé
+    ranks:
+      self: 3
+    data:
+      layout: no_background
+      text: >-
+        <p><i>Le service numérique optimise-t-il la sollicitation des environnements de développement, de préproduction ou de test en fonction de ses besoins ?</i></p><p>Ressources serveur robustes et autoscalées en production<br>Ressources serveur légères en staging<br>Ressources serveur allouées à la demande en test<br>Ressources de développement au cas par cas</p>
+
+      notes: >-
+        
+
+
+      alt: >-
+        
+
+      credit: >-
+        
+
+
+
+
+  - kind: heading
+    title: >-
       Contenus - 83%
     slug: "contenus-83"
-    position: 2
+    position: 4
     rank: 2
   - kind: block
     template: chapter
@@ -854,7 +1022,7 @@ contents:
     title: >-
       Frontend - 100%
     slug: "frontend-100"
-    position: 3
+    position: 5
     rank: 2
   - kind: block
     template: chapter
@@ -1022,7 +1190,7 @@ contents:
     title: >-
       Backend - non applicable
     slug: "backend-non-applicable"
-    position: 4
+    position: 6
     rank: 2
   - kind: block
     template: chapter
@@ -1144,7 +1312,7 @@ contents:
     title: >-
       Hébergement - 58%
     slug: "hebergement-58"
-    position: 5
+    position: 7
     rank: 2
   - kind: block
     template: chapter
@@ -1266,7 +1434,7 @@ contents:
     title: >-
       Algorithmie - Non applicable
     slug: "algorithmie-non-applicable"
-    position: 6
+    position: 8
     rank: 2
   - kind: block
     template: chapter
@@ -1432,171 +1600,10 @@ contents:
 
   - kind: heading
     title: >-
-      Architecture - 100%
-    slug: "architecture"
-    position: 7
+      UX UI - 100¨
+    slug: "ux-ui-100"
+    position: 9
     rank: 2
-  - kind: block
-    template: chapter
-    title: >-
-      3.1 validé
-    ranks:
-      self: 3
-    data:
-      layout: no_background
-      text: >-
-        <p><i>Le service numérique repose-t-il sur une architecture, des ressources ou des composants conçus pour réduire leurs propres impacts environnementaux ?</i></p><p>Front :</p><ul> <li>Osuny </li> <li>Hugo</li> </ul><p>Admin :</p><ul> <li>Osuny</li> <li>Autoscale des serveurs Scalingo </li> </ul>
-
-      notes: >-
-        
-
-
-      alt: >-
-        
-
-      credit: >-
-        
-
-
-
-  - kind: block
-    template: chapter
-    title: >-
-      3.2 validé
-    ranks:
-      self: 3
-    data:
-      layout: no_background
-      text: >-
-        <p><i>Le service numérique fonctionne-t-il sur une architecture pouvant adapter la quantité de ressources utilisées à la consommation du service ?</i></p><p>Cf 3.1<br></p>
-
-      notes: >-
-        
-
-
-      alt: >-
-        
-
-      credit: >-
-        
-
-
-
-  - kind: block
-    template: chapter
-    title: >-
-      3.3 validé
-    ranks:
-      self: 3
-    data:
-      layout: no_background
-      text: >-
-        <p><i>Le service numérique est-il en mesure de supporter l’évolution technique des protocoles ?</i></p><p>Deuxfleurs utilise l'IPv6 (directive AAAA, HTTPS avec Let's encrypt, TLS 1.2+1.3<br>KeyCDN IPv6, HTTPS, TLS 1.2+1.3 <br>Scaleway Object Storage IPv6, HTTPS, TLS 1.2+1.3 </p>
-
-      notes: >-
-        
-
-
-      alt: >-
-        
-
-      credit: >-
-        
-
-
-
-  - kind: block
-    template: chapter
-    title: >-
-      3.4 validé
-    ranks:
-      self: 3
-    data:
-      layout: no_background
-      text: >-
-        <p><i>Le service numérique garantit-il la mise à disposition de mises à jour correctives pendant toute la durée de vie prévue des équipements et des logiciels liés au service ?</i></p><p>Correctifs dans le cadre du commun numérique Osuny<br></p>
-
-      notes: >-
-        
-
-
-      alt: >-
-        
-
-      credit: >-
-        
-
-
-
-  - kind: block
-    template: chapter
-    title: >-
-      3.5 non applicable
-    ranks:
-      self: 3
-    data:
-      layout: no_background
-      text: >-
-        <p><i>Le service numérique propose-t-il d’installer des mises à jour correctives indépendamment des mises à jour évolutives de façon transparente ?</i></p>
-
-      notes: >-
-        
-
-
-      alt: >-
-        
-
-      credit: >-
-        
-
-
-
-  - kind: block
-    template: chapter
-    title: >-
-      3.6 non applicable
-    ranks:
-      self: 3
-    data:
-      layout: no_background
-      text: >-
-        <p><i>Le service numérique propose-t-il les mises à jour incrémentielles, afin de ne pas remplacer tout le code à chaque mise à jour ?</i></p>
-
-      notes: >-
-        
-
-
-      alt: >-
-        
-
-      credit: >-
-        
-
-
-
-  - kind: block
-    template: chapter
-    title: >-
-      3.7 validé
-    ranks:
-      self: 3
-    data:
-      layout: no_background
-      text: >-
-        <p><i>Le service numérique optimise-t-il la sollicitation des environnements de développement, de préproduction ou de test en fonction de ses besoins ?</i></p><p>Ressources serveur robustes et autoscalées en production<br>Ressources serveur légères en staging<br>Ressources serveur allouées à la demande en test<br>Ressources de développement au cas par cas</p>
-
-      notes: >-
-        
-
-
-      alt: >-
-        
-
-      credit: >-
-        
-
-
-
 
 
 ---
