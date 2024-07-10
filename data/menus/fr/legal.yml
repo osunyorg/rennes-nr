@@ -13,4 +13,8 @@ items:
   target: "/declaration-decoconception/"
   kind: page
   children: []
+- title: Déclaration d'intérêt général
+  target: "/declaration-dinteret-general/"
+  kind: page
+  children: []
 
