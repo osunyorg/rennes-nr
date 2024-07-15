@@ -14,9 +14,5 @@ params:
   menu:
     dropdown:
       linkToLevel1: true
-  posts:
-    index:
-      show_categories: true
-      show_description: true
   debug:
-     productionUrl: "https://comnum.rennes.fr"
+    productionUrl: "https://comnum.rennes.fr"
