@@ -548,17 +548,38 @@ contents:
   - kind: block
     template: pages
     title: >-
-      
+      Test nom de page
     ranks:
-      self: false
+      self: 3
+      children: 4
     data:
+      page:
+        path: "/strategie/"
+        slug: "strategie"
+        file: "pages/strategie/_index.html"
       options:
-        image: true
-        main_summary: true
-        summary: true
+        image: false
+        main_summary: false
+        summary: false
 
       layout: grid
       pages:
+        - path: "/strategie/labellisation-numerique-responsable/"
+          slug: "labellisation-numerique-responsable"
+          file: "pages/strategie/labellisation-numerique-responsable/_index.html"
+          external: false
+        - path: "/strategie/plan-pour-la-metropole/"
+          slug: "plan-pour-la-metropole"
+          file: "pages/strategie/plan-pour-la-metropole/_index.html"
+          external: false
+        - path: "/strategie/strategie-pour-un-numerique-soutenable-aux-champs-libres/"
+          slug: "strategie-pour-un-numerique-soutenable-aux-champs-libres"
+          file: "pages/strategie/strategie-pour-un-numerique-soutenable-aux-champs-libres/_index.html"
+          external: false
+        - path: "/strategie/feuille-de-route-communication-numerique-soutenable/"
+          slug: "feuille-de-route-communication-numerique-soutenable"
+          file: "pages/strategie/feuille-de-route-communication-numerique-soutenable/_index.html"
+          external: false
 
 
 
