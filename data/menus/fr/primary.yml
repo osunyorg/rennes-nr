@@ -21,10 +21,6 @@ items:
     target: "/strategie/plan-pour-la-metropole/"
     kind: page
     children: []
-  - title: 'Nouvelle stratégie éditoriale des réseaux sociaux  '
-    target: "/strategie/"
-    kind: page
-    children: []
 - title: Faire ensemble
   target: "/faire-ensemble/"
   kind: page
