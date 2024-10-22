@@ -50,15 +50,23 @@ contents_reading_time:
   text: >-
     moins d'une minute
 contents:
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Objectifs
-    slug: "objectifs"
-    position: 1
-    rank: 2
+    slug: >-
+      objectifs
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: chapter
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -79,16 +87,23 @@ contents:
 
 
 
-
-  - kind: heading
+  - kind: block
+    template: title
     title: >-
       Vidéo
-    slug: "video"
-    position: 2
-    rank: 2
+    slug: >-
+      video
+    ranks:
+      self: 2
+    data:
+      layout: classic
+
+
   - kind: block
     template: video
     title: >-
+      
+    slug: >-
       
     ranks:
       self: false
@@ -126,6 +141,8 @@ contents:
     template: license
     title: >-
       
+    slug: >-
+      
     ranks:
       self: false
     data:
@@ -140,7 +157,6 @@ contents:
           CC BY 4.0
         url: https://creativecommons.org/licenses/by/4.0/
         icons: ["cc", "by"]
-
 
 
 ---
