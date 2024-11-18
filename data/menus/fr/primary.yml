@@ -25,6 +25,10 @@ items:
     target: "/strategie/nouvelle-strategie-editoriale-des-reseaux-sociaux/"
     kind: page
     children: []
+  - title: Un nouveau site internet pour Rennes, Ville et Métropole
+    target: ''
+    kind: blank
+    children: []
 - title: Faire ensemble
   target: "/faire-ensemble/"
   kind: page
