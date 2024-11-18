@@ -26,8 +26,8 @@ items:
     kind: page
     children: []
   - title: Un nouveau site internet pour Rennes, Ville et Métropole
-    target: ''
-    kind: blank
+    target: "/publications/2024-05-15-un-nouveau-site-web-pour-rennes-metropole/"
+    kind: post
     children: []
 - title: Faire ensemble
   target: "/faire-ensemble/"
