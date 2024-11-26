@@ -5,16 +5,20 @@ items:
   target: "/a-propos/"
   kind: page
   children: []
+  file: content/fr/pages/a-propos/_index.html
 - title: Plan du site
   target: "/plan-du-site/"
   kind: page
   children: []
+  file: content/fr/pages/plan-du-site/_index.html
 - title: Déclaration d’écoconception
   target: "/declaration-decoconception/"
   kind: page
   children: []
+  file: content/fr/pages/declaration-decoconception/_index.html
 - title: Déclaration d'intérêt général
   target: "/declaration-dinteret-general/"
   kind: page
   children: []
+  file: content/fr/pages/declaration-dinteret-general/_index.html
 

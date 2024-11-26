@@ -9,26 +9,33 @@ items:
     target: "/strategie/feuille-de-route-communication-numerique-soutenable/"
     kind: page
     children: []
+    file: content/fr/pages/strategie/feuille-de-route-communication-numerique-soutenable/_index.html
   - title: Plan pour Les Champs Libres
     target: "/strategie/strategie-pour-un-numerique-soutenable-aux-champs-libres/"
     kind: page
     children: []
+    file: content/fr/pages/strategie/strategie-pour-un-numerique-soutenable-aux-champs-libres/_index.html
   - title: Labellisation numérique responsable
     target: "/strategie/labellisation-numerique-responsable/"
     kind: page
     children: []
+    file: content/fr/pages/strategie/labellisation-numerique-responsable/_index.html
   - title: Plan pour la Métropole
     target: "/strategie/plan-pour-la-metropole/"
     kind: page
     children: []
+    file: content/fr/pages/strategie/plan-pour-la-metropole/_index.html
   - title: 'Nouvelle stratégie éditoriale des réseaux sociaux '
     target: "/strategie/nouvelle-strategie-editoriale-des-reseaux-sociaux/"
     kind: page
     children: []
+    file: content/fr/pages/strategie/nouvelle-strategie-editoriale-des-reseaux-sociaux/_index.html
   - title: Un nouveau site internet pour Rennes, Ville et Métropole
     target: "/publications/2024-05-15-un-nouveau-site-web-pour-rennes-metropole/"
     kind: post
     children: []
+    file: content/fr/posts/2024/2024-05-15-un-nouveau-site-web-pour-rennes-metropole.html
+  file: content/fr/pages/strategie/_index.html
 - title: Faire ensemble
   target: "/faire-ensemble/"
   kind: page
@@ -37,14 +44,18 @@ items:
     target: "/faire-ensemble/comment-faisons-nous/"
     kind: page
     children: []
+    file: content/fr/pages/faire-ensemble/comment-faisons-nous/_index.html
   - title: Avec qui faisons-nous ?
     target: "/faire-ensemble/avec-qui-faisons-nous/"
     kind: page
     children: []
+    file: content/fr/pages/faire-ensemble/avec-qui-faisons-nous/_index.html
   - title: Interventions
     target: "/faire-ensemble/interventions/"
     kind: page
     children: []
+    file: content/fr/pages/faire-ensemble/interventions/_index.html
+  file: content/fr/persons/_index.html
 - title: Expérimentations
   target: "/experimentations/"
   kind: page
@@ -53,14 +64,18 @@ items:
     target: "/publications/2022-06-01-un-module-photo-low-tech/"
     kind: post
     children: []
+    file: content/fr/posts/2022/2022-06-01-un-module-photo-low-tech.html
   - title: Dimanche à Rennes
     target: "/experimentations/dar/"
     kind: page
     children: []
+    file: content/fr/pages/experimentations/dar/_index.html
   - title: Écosystème web des Champs Libres
     target: "/publications/2024-01-01-ecosysteme-web-des-champs-libres-1/"
     kind: post
     children: []
+    file: content/fr/posts/2024/2024-01-01-ecosysteme-web-des-champs-libres-1.html
+  file: content/fr/pages/experimentations/_index.html
 - title: Outils
   target: "/outils/"
   kind: page
@@ -69,12 +84,16 @@ items:
     target: "/outils/preconisations-1/"
     kind: page
     children: []
+    file: content/fr/pages/outils/preconisations-1/_index.html
   - title: Glossaire
     target: "/outils/glossaire/"
     kind: page
     children: []
+    file: content/fr/pages/outils/glossaire/_index.html
   - title: 'Bilan environnemental '
     target: "/outils/bilan-environnemental/"
     kind: page
     children: []
+    file: content/fr/pages/outils/bilan-environnemental/_index.html
+  file: content/fr/pages/outils/_index.html
 
