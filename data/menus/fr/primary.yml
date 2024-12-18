@@ -4,40 +4,47 @@ items:
 - title: Stratégie
   target: "/strategie/"
   kind: page
+  new_tab: false
   children:
   - title: Notre feuille de route
     target: "/strategie/feuille-de-route-communication-numerique-soutenable/"
     kind: page
+    new_tab: false
     children: []
     path: "/pages/strategie/feuille-de-route-communication-numerique-soutenable"
     file: content/fr/pages/strategie/feuille-de-route-communication-numerique-soutenable/_index.html
   - title: Plan pour Les Champs Libres
     target: "/strategie/strategie-pour-un-numerique-soutenable-aux-champs-libres/"
     kind: page
+    new_tab: false
     children: []
     path: "/pages/strategie/strategie-pour-un-numerique-soutenable-aux-champs-libres"
     file: content/fr/pages/strategie/strategie-pour-un-numerique-soutenable-aux-champs-libres/_index.html
   - title: Labellisation numérique responsable
     target: "/strategie/labellisation-numerique-responsable/"
     kind: page
+    new_tab: false
     children: []
     path: "/pages/strategie/labellisation-numerique-responsable"
     file: content/fr/pages/strategie/labellisation-numerique-responsable/_index.html
   - title: Plan pour la Métropole
     target: "/strategie/plan-pour-la-metropole/"
     kind: page
+    new_tab: false
     children: []
     path: "/pages/strategie/plan-pour-la-metropole"
     file: content/fr/pages/strategie/plan-pour-la-metropole/_index.html
   - title: 'Nouvelle stratégie éditoriale des réseaux sociaux '
     target: "/strategie/nouvelle-strategie-editoriale-des-reseaux-sociaux/"
     kind: page
+    new_tab: false
     children: []
     path: "/pages/strategie/nouvelle-strategie-editoriale-des-reseaux-sociaux"
     file: content/fr/pages/strategie/nouvelle-strategie-editoriale-des-reseaux-sociaux/_index.html
   - title: Un nouveau site internet pour Rennes, Ville et Métropole
     target: "/publications/2024-05-15-un-nouveau-site-web-pour-rennes-metropole/"
     kind: post
+    new_tab: false
     children: []
     path: "/posts/2024/2024-05-15-un-nouveau-site-web-pour-rennes-metropole"
     file: content/fr/posts/2024/2024-05-15-un-nouveau-site-web-pour-rennes-metropole.html
@@ -46,22 +53,26 @@ items:
 - title: Faire ensemble
   target: "/faire-ensemble/"
   kind: page
+  new_tab: false
   children:
   - title: Comment faisons-nous ?
     target: "/faire-ensemble/comment-faisons-nous/"
     kind: page
+    new_tab: false
     children: []
     path: "/pages/faire-ensemble/comment-faisons-nous"
     file: content/fr/pages/faire-ensemble/comment-faisons-nous/_index.html
   - title: Avec qui faisons-nous ?
     target: "/faire-ensemble/avec-qui-faisons-nous/"
     kind: page
+    new_tab: false
     children: []
     path: "/pages/faire-ensemble/avec-qui-faisons-nous"
     file: content/fr/pages/faire-ensemble/avec-qui-faisons-nous/_index.html
   - title: Interventions
     target: "/faire-ensemble/interventions/"
     kind: page
+    new_tab: false
     children: []
     path: "/pages/faire-ensemble/interventions"
     file: content/fr/pages/faire-ensemble/interventions/_index.html
@@ -70,22 +81,26 @@ items:
 - title: Expérimentations
   target: "/experimentations/"
   kind: page
+  new_tab: false
   children:
   - title: Module photos
     target: "/publications/2022-06-01-un-module-photo-low-tech/"
     kind: post
+    new_tab: false
     children: []
     path: "/posts/2022/2022-06-01-un-module-photo-low-tech"
     file: content/fr/posts/2022/2022-06-01-un-module-photo-low-tech.html
   - title: Dimanche à Rennes
     target: "/experimentations/dar/"
     kind: page
+    new_tab: false
     children: []
     path: "/pages/experimentations/dar"
     file: content/fr/pages/experimentations/dar/_index.html
   - title: Écosystème web des Champs Libres
     target: "/publications/2024-01-01-ecosysteme-web-des-champs-libres-1/"
     kind: post
+    new_tab: false
     children: []
     path: "/posts/2024/2024-01-01-ecosysteme-web-des-champs-libres-1"
     file: content/fr/posts/2024/2024-01-01-ecosysteme-web-des-champs-libres-1.html
@@ -94,22 +109,26 @@ items:
 - title: Outils
   target: "/outils/"
   kind: page
+  new_tab: false
   children:
   - title: Préconisations
     target: "/outils/preconisations-1/"
     kind: page
+    new_tab: false
     children: []
     path: "/pages/outils/preconisations-1"
     file: content/fr/pages/outils/preconisations-1/_index.html
   - title: Glossaire
     target: "/outils/glossaire/"
     kind: page
+    new_tab: false
     children: []
     path: "/pages/outils/glossaire"
     file: content/fr/pages/outils/glossaire/_index.html
   - title: 'Bilan environnemental '
     target: "/outils/bilan-environnemental/"
     kind: page
+    new_tab: false
     children: []
     path: "/pages/outils/bilan-environnemental"
     file: content/fr/pages/outils/bilan-environnemental/_index.html

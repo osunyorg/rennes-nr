@@ -4,24 +4,28 @@ items:
 - title: À propos
   target: "/a-propos/"
   kind: page
+  new_tab: false
   children: []
   path: "/pages/a-propos"
   file: content/fr/pages/a-propos/_index.html
 - title: Plan du site
   target: "/plan-du-site/"
   kind: page
+  new_tab: false
   children: []
   path: "/pages/plan-du-site"
   file: content/fr/pages/plan-du-site/_index.html
 - title: Déclaration d’écoconception
   target: "/declaration-decoconception/"
   kind: page
+  new_tab: false
   children: []
   path: "/pages/declaration-decoconception"
   file: content/fr/pages/declaration-decoconception/_index.html
 - title: Déclaration d'intérêt général
   target: "/declaration-dinteret-general/"
   kind: page
+  new_tab: false
   children: []
   path: "/pages/declaration-dinteret-general"
   file: content/fr/pages/declaration-dinteret-general/_index.html
