@@ -13,7 +13,9 @@ params:
     header: "/assets/images/logo.svg"
     footer: "/assets/images/monogramme-blanc.svg"
   menu:
-    dropdown:
-      linkToLevel1: true
+    primary:
+      level_2:
+        title:
+          active: true
   debug:
     productionUrl: "https://comnum.rennes.fr"
