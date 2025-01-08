@@ -104,6 +104,13 @@ items:
     children: []
     path: "/pages/experimentations/site-web-des-champs-libres"
     file: content/fr/pages/experimentations/site-web-des-champs-libres/_index.html
+  - title: Site web des Champs Libres
+    target: "/experimentations/site-web-des-champs-libres/"
+    kind: page
+    new_tab: false
+    children: []
+    path: "/pages/experimentations/site-web-des-champs-libres"
+    file: content/fr/pages/experimentations/site-web-des-champs-libres/_index.html
   path: "/pages/experimentations"
   file: content/fr/pages/experimentations/_index.html
 - title: Outils
