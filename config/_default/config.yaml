@@ -1,4 +1,4 @@
-theme: rennes-hugo-theme
+theme: osuny
 enableRobotsTXT: true
 removePathAccents: true
 pagination:
@@ -19,3 +19,7 @@ params:
           active: true
   debug:
     productionUrl: "https://comnum.rennes.fr"
+  posts:
+    index:
+      show_categories: true
+      show_description: true
