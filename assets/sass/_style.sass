@@ -148,19 +148,22 @@ main
                 grid-row: 1 / 5 span
                 order: 4
                 max-width: none
-.block-posts
-    .categories--grid
-        li
-            overflow: hidden
+
+.block-categories
+    &--cards
+        article
             background: $color-background-accent
             border-radius: pxToRem(5)
+            overflow: hidden
             transition: background 0.35s
-            @include media-breakpoint-up(xxl)
-                padding: space(4) space(8)
-            a
+            [class$="-title"]
                 @include body-text
+            .more
+                display: none
             &:hover
                 background: $color-accent
+                a, p
+                    color: var(--color-text)
                 &::after
                     transition: -webkit-text-stroke-color 0.35s
                     -webkit-text-stroke-color: $color-background-accent
@@ -181,6 +184,9 @@ main
                 &::after
                     font-size: pxToRem(150)
                     left: 50%
+    @include in-page-without-sidebar
+        ul
+            @include grid(4)
 
 .block-persons
     @include in-page-without-sidebar
