@@ -8,6 +8,14 @@ main
             @include h3
             font-weight: bold
 
+.hero
+    --color-text: #{$color-background}
+    *:focus-visible
+        outline-color: var(--color-text)
+    @include media-breakpoint-up(desktop)
+        figcaption
+            color: inherit !important
+
 .page__home
     .hero
         h1
@@ -38,6 +46,7 @@ main
     .hero
         background: $color-background
         color: $color-text
+        --color-text: #{$color-text}
         .content
             figure figcaption
                 &::before,
@@ -54,6 +63,16 @@ main
             .posts-taxonomies
                 > li:first-child
                     padding-top: 0
+.siblings-navigation
+    ul
+        a
+            // padding: $spacing-3
+            // margin: -$spacing-3
+            &:hover
+                color: var(--color-text) !important
+                text-decoration: underline
+                text-decoration-color: var(--color-text)
+                text-decoration-thickness: pxToRem(2)
 
 .post-infos
     a
