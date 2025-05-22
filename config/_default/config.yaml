@@ -23,3 +23,6 @@ params:
     index:
       show_categories: true
       show_description: true
+  home:
+    head:
+      title: site
