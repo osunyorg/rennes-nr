@@ -235,7 +235,7 @@ main
 
 .menu
     @include media-breakpoint-up(desktop)
-        .dropdown-menu 
+        .dropdown-menu
             padding-top: space(25)
             .dropdown-menu-title
                 @include h1
@@ -247,6 +247,11 @@ main
                     line-height: pxToRem(54)
 
 footer#document-footer
+    .footer-credit
+        a
+            text-decoration-color: currentColor
+            &:hover
+                color: var(--color-accent)
     @include media-breakpoint-down(md)
         padding-bottom: 0
         .footer-image
