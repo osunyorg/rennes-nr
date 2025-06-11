@@ -10,13 +10,6 @@ fr:
   params:
     contact_details:
 
-  permalinks:
-    pages_categories: /:slug/
-    posts: /publications/:year-:month-:day-:slug/
-    posts_categories: /publications/:slug/
-    persons: /faire-ensemble/:slug/
-    persons_categories: /faire-ensemble/categories/:slug/
-    authors: /faire-ensemble/:slug/publications/
   taxonomies:
     administrator: administrators
     author: authors
