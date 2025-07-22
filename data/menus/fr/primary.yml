@@ -133,12 +133,12 @@ items:
     path: "/pages/outils/bilan-environnemental"
     file: content/fr/pages/outils/bilan-environnemental/_index.html
   - title: Nouveaux guides pour une communication responsable
-    target: "/publications/2025-07-22-trois-nouveaux-guides-tres-pratiques-pour-une-communication-plus-responsable/"
+    target: "/publications/2025-07-22-trois-nouveaux-guides-pratiques-pour-une-communication-plus-responsable/"
     kind: post
     new_tab: false
     children: []
-    path: "/posts/2025/2025-07-22-trois-nouveaux-guides-tres-pratiques-pour-une-communication-plus-responsable"
-    file: content/fr/posts/2025/2025-07-22-trois-nouveaux-guides-tres-pratiques-pour-une-communication-plus-responsable.html
+    path: "/posts/2025/2025-07-22-trois-nouveaux-guides-pratiques-pour-une-communication-plus-responsable"
+    file: content/fr/posts/2025/2025-07-22-trois-nouveaux-guides-pratiques-pour-une-communication-plus-responsable.html
   path: "/pages/outils"
   file: content/fr/pages/outils/_index.html
 
