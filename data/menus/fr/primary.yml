@@ -132,7 +132,7 @@ items:
     children: []
     path: "/pages/outils/bilan-environnemental"
     file: content/fr/pages/outils/bilan-environnemental/_index.html
-  - title: Trois nouveaux guides –très- pratiques pour une communication plus responsable
+  - title: Nouveaux guides pour une communication responsable
     target: "/outils/trois-nouveaux-guides-tres-pratiques-pour-une-communication-plus-responsable/"
     kind: page
     new_tab: false
