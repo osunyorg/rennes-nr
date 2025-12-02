@@ -39,8 +39,8 @@ main
             @include media-breakpoint-up(desktop)
                 position: relative
                 z-index: $zindex-aside + 1
+                margin-top: 0
                 text-align: center
-                margin-top: -$spacing-5
                 .block-content
                     padding: $spacing-5 offset(1) !important
     .hero
@@ -80,16 +80,19 @@ main
         text-decoration-color: $color-accent
         text-decoration-thickness: pxToRem(2)
 
-.post .post-categories, .post-categories
-    a
-        color: inherit
-        text-decoration: none
-        padding: space(2) space(3) 
-        background: $color-background-accent
-        display: inline-block
-        transition: background 0.35s
-        &:hover
-            background: $color-accent
+.post 
+    [class$="-categories"]
+        gap: $spacing-2
+    .post-categories, .post-categories
+        a
+            color: inherit
+            text-decoration: none
+            padding: space(2) space(3) 
+            background: $color-background-accent
+            display: inline-block
+            transition: background 0.35s
+            &:hover
+                background: $color-accent
 
 .block-call_to_action
     .call_to_action
@@ -157,6 +160,7 @@ main
                 text-align: left
                 time
                     @include h3
+                    position: relative
             .post-categories
                 margin-top: space(9)
             [itemprop='headline'], .post-meta, .post-categories
