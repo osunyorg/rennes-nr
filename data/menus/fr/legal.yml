@@ -2,31 +2,39 @@
 title: Informations légales
 items:
 - title: À propos
+  slug: a-propos
   target: "/a-propos/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/a-propos"
   file: content/fr/pages/a-propos/_index.html
 - title: Plan du site
+  slug: plan-du-site
   target: "/plan-du-site/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/plan-du-site"
   file: content/fr/pages/plan-du-site/_index.html
 - title: Déclaration d’écoconception
+  slug: declaration-d-ecoconception
   target: "/declaration-decoconception/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/declaration-decoconception"
   file: content/fr/pages/declaration-decoconception/_index.html
 - title: Déclaration d'intérêt général
+  slug: declaration-d-interet-general
   target: "/declaration-dinteret-general/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/declaration-dinteret-general"
   file: content/fr/pages/declaration-dinteret-general/_index.html
 

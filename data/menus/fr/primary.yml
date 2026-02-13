@@ -2,150 +2,209 @@
 title: Menu principal
 items:
 - title: Stratégie
+  slug: strategie
   target: "/strategie/"
   kind: page
   new_tab: false
   children:
   - title: Notre feuille de route
+    slug: notre-feuille-de-route
     target: "/strategie/feuille-de-route-communication-numerique-soutenable/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/strategie/feuille-de-route-communication-numerique-soutenable"
     file: content/fr/pages/strategie/feuille-de-route-communication-numerique-soutenable/_index.html
   - title: Plan pour Les Champs Libres
+    slug: plan-pour-les-champs-libres
     target: "/strategie/strategie-pour-un-numerique-soutenable-aux-champs-libres/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/strategie/strategie-pour-un-numerique-soutenable-aux-champs-libres"
     file: content/fr/pages/strategie/strategie-pour-un-numerique-soutenable-aux-champs-libres/_index.html
   - title: Labellisation numérique responsable
+    slug: labellisation-numerique-responsable
     target: "/strategie/labellisation-numerique-responsable/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/strategie/labellisation-numerique-responsable"
     file: content/fr/pages/strategie/labellisation-numerique-responsable/_index.html
   - title: Plan pour la Métropole
+    slug: plan-pour-la-metropole
     target: "/strategie/plan-pour-la-metropole/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/strategie/plan-pour-la-metropole"
     file: content/fr/pages/strategie/plan-pour-la-metropole/_index.html
   - title: 'Nouvelle stratégie éditoriale des réseaux sociaux '
+    slug: nouvelle-strategie-editoriale-des-reseaux-sociaux
     target: "/strategie/nouvelle-strategie-editoriale-des-reseaux-sociaux/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/strategie/nouvelle-strategie-editoriale-des-reseaux-sociaux"
     file: content/fr/pages/strategie/nouvelle-strategie-editoriale-des-reseaux-sociaux/_index.html
   - title: Un nouveau site internet pour Rennes, Ville et Métropole
+    slug: un-nouveau-site-internet-pour-rennes-ville-et-metropole
     target: "/publications/2024-05-15-un-nouveau-site-web-pour-rennes-metropole/"
     kind: post
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/posts/2024/2024-05-15-un-nouveau-site-web-pour-rennes-metropole"
     file: content/fr/posts/2024/2024-05-15-un-nouveau-site-web-pour-rennes-metropole.html
+  descendants_targets:
+  - "/publications/2024-05-15-un-nouveau-site-web-pour-rennes-metropole/"
+  - "/strategie/feuille-de-route-communication-numerique-soutenable/"
+  - "/strategie/labellisation-numerique-responsable/"
+  - "/strategie/nouvelle-strategie-editoriale-des-reseaux-sociaux/"
+  - "/strategie/plan-pour-la-metropole/"
+  - "/strategie/strategie-pour-un-numerique-soutenable-aux-champs-libres/"
   path: "/pages/strategie"
   file: content/fr/pages/strategie/_index.html
 - title: Faire ensemble
+  slug: faire-ensemble
   target: "/faire-ensemble/"
   kind: page
   new_tab: false
   children:
   - title: Qui sommes-nous ?
+    slug: qui-sommes-nous
     target: "/faire-ensemble/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/authors"
     file: content/fr/authors/_index.html
   - title: Comment faisons-nous ?
+    slug: comment-faisons-nous
     target: "/faire-ensemble/comment-faisons-nous/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/faire-ensemble/comment-faisons-nous"
     file: content/fr/pages/faire-ensemble/comment-faisons-nous/_index.html
   - title: Avec qui faisons-nous ?
+    slug: avec-qui-faisons-nous
     target: "/faire-ensemble/avec-qui-faisons-nous/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/faire-ensemble/avec-qui-faisons-nous"
     file: content/fr/pages/faire-ensemble/avec-qui-faisons-nous/_index.html
   - title: Interventions
+    slug: interventions
     target: "/faire-ensemble/interventions/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/faire-ensemble/interventions"
     file: content/fr/pages/faire-ensemble/interventions/_index.html
+  descendants_targets:
+  - "/faire-ensemble/"
+  - "/faire-ensemble/avec-qui-faisons-nous/"
+  - "/faire-ensemble/comment-faisons-nous/"
+  - "/faire-ensemble/interventions/"
   path: "/persons"
   file: content/fr/persons/_index.html
 - title: Expérimentations
+  slug: experimentations
   target: "/experimentations/"
   kind: page
   new_tab: false
   children:
   - title: Module photos
+    slug: module-photos
     target: "/publications/2022-06-01-un-module-photo-low-tech/"
     kind: post
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/posts/2022/2022-06-01-un-module-photo-low-tech"
     file: content/fr/posts/2022/2022-06-01-un-module-photo-low-tech.html
   - title: Dimanche à Rennes
+    slug: dimanche-a-rennes
     target: "/experimentations/dar/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/experimentations/dar"
     file: content/fr/pages/experimentations/dar/_index.html
   - title: Site web des Champs Libres
+    slug: site-web-des-champs-libres
     target: "/experimentations/site-web-des-champs-libres/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/experimentations/site-web-des-champs-libres"
     file: content/fr/pages/experimentations/site-web-des-champs-libres/_index.html
+  descendants_targets:
+  - "/experimentations/dar/"
+  - "/experimentations/site-web-des-champs-libres/"
+  - "/publications/2022-06-01-un-module-photo-low-tech/"
   path: "/pages/experimentations"
   file: content/fr/pages/experimentations/_index.html
 - title: Outils
+  slug: outils
   target: "/outils/"
   kind: page
   new_tab: false
   children:
   - title: Préconisations
+    slug: preconisations
     target: "/outils/preconisations-1/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/outils/preconisations-1"
     file: content/fr/pages/outils/preconisations-1/_index.html
   - title: Glossaire
+    slug: glossaire
     target: "/outils/glossaire/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/outils/glossaire"
     file: content/fr/pages/outils/glossaire/_index.html
   - title: 'Bilan environnemental '
+    slug: bilan-environnemental
     target: "/outils/bilan-environnemental/"
     kind: page
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/pages/outils/bilan-environnemental"
     file: content/fr/pages/outils/bilan-environnemental/_index.html
   - title: Nouveaux guides pour une communication responsable
+    slug: nouveaux-guides-pour-une-communication-responsable
     target: "/publications/2025-05-22-trois-nouveaux-guides-pratiques-pour-une-communication-plus-responsable/"
     kind: post
     new_tab: false
     children: []
+    descendants_targets: []
     path: "/posts/2025/2025-05-22-trois-nouveaux-guides-pratiques-pour-une-communication-plus-responsable"
     file: content/fr/posts/2025/2025-05-22-trois-nouveaux-guides-pratiques-pour-une-communication-plus-responsable.html
+  descendants_targets:
+  - "/outils/bilan-environnemental/"
+  - "/outils/glossaire/"
+  - "/outils/preconisations-1/"
+  - "/publications/2025-05-22-trois-nouveaux-guides-pratiques-pour-une-communication-plus-responsable/"
   path: "/pages/outils"
   file: content/fr/pages/outils/_index.html
 
