@@ -7,6 +7,11 @@ osuny:
   website:
     id: 081d9923-0993-4029-87d5-3d2c53e17459
 
+## PARAMS
+params:
+  _merge: deep
+  plausible: "comnum.rennes.fr"
+
 ## LANGUAGE
 defaultContentLanguage: fr
 defaultContentLanguageInSubdir: false
