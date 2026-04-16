@@ -78,7 +78,7 @@ items:
   children:
   - title: Qui sommes-nous ?
     slug: qui-sommes-nous
-    target: "/faire-ensemble/"
+    target: "/faire-ensemble/equipe-editoriale/"
     kind: page
     new_tab: false
     children: []
@@ -113,9 +113,9 @@ items:
     path: "/pages/faire-ensemble/interventions"
     file: content/fr/pages/faire-ensemble/interventions/_index.html
   descendants_targets:
-  - "/faire-ensemble/"
   - "/faire-ensemble/avec-qui-faisons-nous/"
   - "/faire-ensemble/comment-faisons-nous/"
+  - "/faire-ensemble/equipe-editoriale/"
   - "/faire-ensemble/interventions/"
   path: "/persons"
   file: content/fr/persons/_index.html
