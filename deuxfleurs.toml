@@ -13,3 +13,140 @@ Cache-Control = "max-age=31536000, no-transform, public"
 for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 [headers.values]
 Cache-Control = "max-age=31536000, no-transform, public"
+
+[[redirects]]
+from = "/equipe/interventions/forum-capcom-2023/"
+to = "/faire-ensemble/interventions/forum-capcom-2023/"
+
+[[redirects]]
+from = "/publications/2024-01-31-dimanche-a-rennes-premiere-tentative-decoconception-sur-un-site-web/"
+to = "/publications/2022-09-01-dimanche-a-rennes-premiere-tentative-decoconception-sur-un-site-web/"
+
+[[redirects]]
+from = "/ressources/"
+to = "/publications/"
+
+[[redirects]]
+from = "/equipe/matthieu-delsaut/"
+to = "/faire-ensemble/matthieu-delsaut/"
+
+[[redirects]]
+from = "/publications/2025-07-22-trois-nouveaux-guides-tres-pratiques-pour-une-communication-plus-responsable/"
+to = "/publications/2025-05-22-trois-nouveaux-guides-pratiques-pour-une-communication-plus-responsable/"
+
+[[redirects]]
+from = "/equipe/estelle-soleillant/"
+to = "/faire-ensemble/estelle-soleillant/"
+
+[[redirects]]
+from = "/publications/2025-07-22-nouveaux-guides-pour-une-communication-responsable/"
+to = "/publications/2025-05-22-trois-nouveaux-guides-pratiques-pour-une-communication-plus-responsable/"
+
+[[redirects]]
+from = "/equipe/avec-qui-faisons-nous/"
+to = "/faire-ensemble/avec-qui-faisons-nous/"
+
+[[redirects]]
+from = "/equipe/estelle-soleillant/publications/"
+to = "/faire-ensemble/estelle-soleillant/publications/"
+
+[[redirects]]
+from = "/equipe/methodologie/"
+to = "/faire-ensemble/comment-faisons-nous/"
+
+[[redirects]]
+from = "/equipe/equipe-editoriale/"
+to = "/faire-ensemble/equipe-editoriale/"
+
+[[redirects]]
+from = "/equipe/estelle-soleillant/ressources/"
+to = "/faire-ensemble/estelle-soleillant/publications/"
+
+[[redirects]]
+from = "/ressources/2023-11-08-conference/"
+to = "/publications/2023-11-08-conference/"
+
+[[redirects]]
+from = "/equipe/presentation/"
+to = "/faire-ensemble/avec-qui-faisons-nous/"
+
+[[redirects]]
+from = "/equipe/interventions/"
+to = "/faire-ensemble/interventions/"
+
+[[redirects]]
+from = "/actualites/"
+to = "/publications/"
+
+[[redirects]]
+from = "/faire-ensemble/methodologie/"
+to = "/faire-ensemble/comment-faisons-nous/"
+
+[[redirects]]
+from = "/equipe/guillaume-rouan/publications/"
+to = "/faire-ensemble/guillaume-rouan/publications/"
+
+[[redirects]]
+from = "/equipe/"
+to = "/faire-ensemble/"
+
+[[redirects]]
+from = "/strategie/plan-nr-lcl/"
+to = "/strategie/strategie-pour-un-numerique-soutenable-aux-champs-libres/"
+
+[[redirects]]
+from = "/strategie/feuille-de-route/"
+to = "/strategie/feuille-de-route-communication-numerique-soutenable/"
+
+[[redirects]]
+from = "/acv/"
+to = "/experimentations/acv/"
+
+[[redirects]]
+from = "/faire-ensemble/qui-sommes-nous-1/"
+to = "/faire-ensemble/qui-sommes-nous/"
+
+[[redirects]]
+from = "/mentions-legales/"
+to = "/a-propos/"
+
+[[redirects]]
+from = "/publications/2025-07-22-trois-nouveaux-guides-pratiques-pour-une-communication-plus-responsable/"
+to = "/publications/2025-05-22-trois-nouveaux-guides-pratiques-pour-une-communication-plus-responsable/"
+
+[[redirects]]
+from = "/equipe/intervention/"
+to = "/faire-ensemble/interventions/"
+
+[[redirects]]
+from = "/equipe/intervention/forum-capcom-2023/"
+to = "/faire-ensemble/interventions/forum-capcom-2023/"
+
+[[redirects]]
+from = "/dar/"
+to = "/experimentations/dar/"
+
+[[redirects]]
+from = "/publications/2024-03-12-notre-feuille-de-route-1/"
+to = "/publications/2023-06-12-notre-feuille-de-route-1/"
+
+[[redirects]]
+from = "/equipe/matthieu-delsaut/publications/"
+to = "/faire-ensemble/matthieu-delsaut/publications/"
+
+[[redirects]]
+from = "/publications/intelligence-artificielle/"
+to = "/publications/algorithme/"
+
+[[redirects]]
+from = "/publications/ui-web/"
+to = "/publications/ui-ux/"
+
+[[redirects]]
+from = "/strategie/feuille-de-route-1/"
+to = "/strategie/feuille-de-route-communication-numerique-soutenable/"
+
+[[redirects]]
+from = "/equipe/guillaume-rouan/"
+to = "/faire-ensemble/guillaume-rouan/"
+
