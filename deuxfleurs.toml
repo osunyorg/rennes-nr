@@ -15,138 +15,138 @@ for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 Cache-Control = "max-age=31536000, no-transform, public"
 
 [[redirects]]
-from = "/equipe/interventions/forum-capcom-2023/"
+from = "/equipe/interventions/forum-capcom-2023/index.html"
 to = "/faire-ensemble/interventions/forum-capcom-2023/"
 
 [[redirects]]
-from = "/publications/2024-01-31-dimanche-a-rennes-premiere-tentative-decoconception-sur-un-site-web/"
+from = "/publications/2024-01-31-dimanche-a-rennes-premiere-tentative-decoconception-sur-un-site-web/index.html"
 to = "/publications/2022-09-01-dimanche-a-rennes-premiere-tentative-decoconception-sur-un-site-web/"
 
 [[redirects]]
-from = "/ressources/"
+from = "/ressources/index.html"
 to = "/publications/"
 
 [[redirects]]
-from = "/equipe/matthieu-delsaut/"
+from = "/equipe/matthieu-delsaut/index.html"
 to = "/faire-ensemble/matthieu-delsaut/"
 
 [[redirects]]
-from = "/publications/2025-07-22-trois-nouveaux-guides-tres-pratiques-pour-une-communication-plus-responsable/"
+from = "/publications/2025-07-22-trois-nouveaux-guides-tres-pratiques-pour-une-communication-plus-responsable/index.html"
 to = "/publications/2025-05-22-trois-nouveaux-guides-pratiques-pour-une-communication-plus-responsable/"
 
 [[redirects]]
-from = "/equipe/estelle-soleillant/"
+from = "/equipe/estelle-soleillant/index.html"
 to = "/faire-ensemble/estelle-soleillant/"
 
 [[redirects]]
-from = "/publications/2025-07-22-nouveaux-guides-pour-une-communication-responsable/"
+from = "/publications/2025-07-22-nouveaux-guides-pour-une-communication-responsable/index.html"
 to = "/publications/2025-05-22-trois-nouveaux-guides-pratiques-pour-une-communication-plus-responsable/"
 
 [[redirects]]
-from = "/equipe/avec-qui-faisons-nous/"
+from = "/equipe/avec-qui-faisons-nous/index.html"
 to = "/faire-ensemble/avec-qui-faisons-nous/"
 
 [[redirects]]
-from = "/equipe/estelle-soleillant/publications/"
+from = "/equipe/estelle-soleillant/publications/index.html"
 to = "/faire-ensemble/estelle-soleillant/publications/"
 
 [[redirects]]
-from = "/equipe/methodologie/"
+from = "/equipe/methodologie/index.html"
 to = "/faire-ensemble/comment-faisons-nous/"
 
 [[redirects]]
-from = "/equipe/equipe-editoriale/"
+from = "/equipe/equipe-editoriale/index.html"
 to = "/faire-ensemble/equipe-editoriale/"
 
 [[redirects]]
-from = "/equipe/estelle-soleillant/ressources/"
+from = "/equipe/estelle-soleillant/ressources/index.html"
 to = "/faire-ensemble/estelle-soleillant/publications/"
 
 [[redirects]]
-from = "/ressources/2023-11-08-conference/"
+from = "/ressources/2023-11-08-conference/index.html"
 to = "/publications/2023-11-08-conference/"
 
 [[redirects]]
-from = "/equipe/presentation/"
+from = "/equipe/presentation/index.html"
 to = "/faire-ensemble/avec-qui-faisons-nous/"
 
 [[redirects]]
-from = "/equipe/interventions/"
+from = "/equipe/interventions/index.html"
 to = "/faire-ensemble/interventions/"
 
 [[redirects]]
-from = "/actualites/"
+from = "/actualites/index.html"
 to = "/publications/"
 
 [[redirects]]
-from = "/faire-ensemble/methodologie/"
+from = "/faire-ensemble/methodologie/index.html"
 to = "/faire-ensemble/comment-faisons-nous/"
 
 [[redirects]]
-from = "/equipe/guillaume-rouan/publications/"
+from = "/equipe/guillaume-rouan/publications/index.html"
 to = "/faire-ensemble/guillaume-rouan/publications/"
 
 [[redirects]]
-from = "/equipe/"
+from = "/equipe/index.html"
 to = "/faire-ensemble/"
 
 [[redirects]]
-from = "/strategie/plan-nr-lcl/"
+from = "/strategie/plan-nr-lcl/index.html"
 to = "/strategie/strategie-pour-un-numerique-soutenable-aux-champs-libres/"
 
 [[redirects]]
-from = "/strategie/feuille-de-route/"
+from = "/strategie/feuille-de-route/index.html"
 to = "/strategie/feuille-de-route-communication-numerique-soutenable/"
 
 [[redirects]]
-from = "/acv/"
+from = "/acv/index.html"
 to = "/experimentations/acv/"
 
 [[redirects]]
-from = "/faire-ensemble/qui-sommes-nous-1/"
+from = "/faire-ensemble/qui-sommes-nous-1/index.html"
 to = "/faire-ensemble/qui-sommes-nous/"
 
 [[redirects]]
-from = "/mentions-legales/"
+from = "/mentions-legales/index.html"
 to = "/a-propos/"
 
 [[redirects]]
-from = "/publications/2025-07-22-trois-nouveaux-guides-pratiques-pour-une-communication-plus-responsable/"
+from = "/publications/2025-07-22-trois-nouveaux-guides-pratiques-pour-une-communication-plus-responsable/index.html"
 to = "/publications/2025-05-22-trois-nouveaux-guides-pratiques-pour-une-communication-plus-responsable/"
 
 [[redirects]]
-from = "/equipe/intervention/"
+from = "/equipe/intervention/index.html"
 to = "/faire-ensemble/interventions/"
 
 [[redirects]]
-from = "/equipe/intervention/forum-capcom-2023/"
+from = "/equipe/intervention/forum-capcom-2023/index.html"
 to = "/faire-ensemble/interventions/forum-capcom-2023/"
 
 [[redirects]]
-from = "/dar/"
+from = "/dar/index.html"
 to = "/experimentations/dar/"
 
 [[redirects]]
-from = "/publications/2024-03-12-notre-feuille-de-route-1/"
+from = "/publications/2024-03-12-notre-feuille-de-route-1/index.html"
 to = "/publications/2023-06-12-notre-feuille-de-route-1/"
 
 [[redirects]]
-from = "/equipe/matthieu-delsaut/publications/"
+from = "/equipe/matthieu-delsaut/publications/index.html"
 to = "/faire-ensemble/matthieu-delsaut/publications/"
 
 [[redirects]]
-from = "/publications/intelligence-artificielle/"
+from = "/publications/intelligence-artificielle/index.html"
 to = "/publications/algorithme/"
 
 [[redirects]]
-from = "/publications/ui-web/"
+from = "/publications/ui-web/index.html"
 to = "/publications/ui-ux/"
 
 [[redirects]]
-from = "/strategie/feuille-de-route-1/"
+from = "/strategie/feuille-de-route-1/index.html"
 to = "/strategie/feuille-de-route-communication-numerique-soutenable/"
 
 [[redirects]]
-from = "/equipe/guillaume-rouan/"
+from = "/equipe/guillaume-rouan/index.html"
 to = "/faire-ensemble/guillaume-rouan/"
 
