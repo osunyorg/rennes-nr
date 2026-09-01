@@ -115,6 +115,10 @@ from = "/publications/2025-07-22-trois-nouveaux-guides-pratiques-pour-une-commun
 to = "/publications/2025-05-22-trois-nouveaux-guides-pratiques-pour-une-communication-plus-responsable/"
 
 [[redirects]]
+from = "/fichiers/2026/index.html"
+to = "/fichiers/2026/3-2-guide-pratique-ecoresponsable-numeriq-vunrpdf/"
+
+[[redirects]]
 from = "/equipe/intervention/index.html"
 to = "/faire-ensemble/interventions/"
 
