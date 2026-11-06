@@ -83,6 +83,10 @@ from = "/ressources/2023-11-08-conference/index.html"
 to = "/publications/2023-11-08-conference/"
 
 [[redirects]]
+from = "/strategie/plan-nr-lcl/index.html"
+to = "/publications/2025-06-06-strategie-pour-un-numerique-soutenable-aux-champs-libres/"
+
+[[redirects]]
 from = "/equipe/presentation/index.html"
 to = "/personnes/avec-qui-faisons-nous/"
 
@@ -129,10 +133,6 @@ to = "/personnes/interventions/"
 [[redirects]]
 from = "/publications/accessibilite/index.html"
 to = "/publications/themes/accessibilite/"
-
-[[redirects]]
-from = "/strategie/plan-nr-lcl/index.html"
-to = "/strategie/strategie-pour-un-numerique-soutenable-aux-champs-libres/"
 
 [[redirects]]
 from = "/publications/interet-general/index.html"
@@ -249,6 +249,10 @@ to = "/personnes/guillaume-rouan/"
 [[redirects]]
 from = "/equipe/guillaume-rouan/index.html"
 to = "/personnes/guillaume-rouan/"
+
+[[redirects]]
+from = "/strategie/strategie-pour-un-numerique-soutenable-aux-champs-libres/index.html"
+to = "/publications/2025-06-06-strategie-pour-un-numerique-soutenable-aux-champs-libres/"
 
 [[redirects]]
 from = "/faire-ensemble/qui-sommes-nous/index.html"
