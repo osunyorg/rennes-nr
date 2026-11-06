@@ -15,6 +15,10 @@ for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 Cache-Control = "max-age=31536000, no-transform, public"
 
 [[redirects]]
+from = "/faire-ensemble/estelle-soleillant/index.html"
+to = "/personnes/estelle-soleillant/"
+
+[[redirects]]
 from = "/equipe/interventions/forum-capcom-2023/index.html"
 to = "/faire-ensemble/interventions/forum-capcom-2023/"
 
@@ -28,7 +32,7 @@ to = "/publications/"
 
 [[redirects]]
 from = "/equipe/matthieu-delsaut/index.html"
-to = "/faire-ensemble/matthieu-delsaut/"
+to = "/personnes/matthieu-delsaut/"
 
 [[redirects]]
 from = "/publications/2025-07-22-trois-nouveaux-guides-tres-pratiques-pour-une-communication-plus-responsable/index.html"
@@ -36,7 +40,7 @@ to = "/publications/2025-05-22-trois-nouveaux-guides-pratiques-pour-une-communic
 
 [[redirects]]
 from = "/equipe/estelle-soleillant/index.html"
-to = "/faire-ensemble/estelle-soleillant/"
+to = "/personnes/estelle-soleillant/"
 
 [[redirects]]
 from = "/publications/2025-07-22-nouveaux-guides-pour-une-communication-responsable/index.html"
@@ -100,7 +104,11 @@ to = "/publications/themes/hebergement/"
 
 [[redirects]]
 from = "/equipe/index.html"
-to = "/faire-ensemble/"
+to = "/personnes/"
+
+[[redirects]]
+from = "/faire-ensemble/index.html"
+to = "/personnes/"
 
 [[redirects]]
 from = "/publications/accessibilite/index.html"
@@ -137,6 +145,10 @@ to = "/publications/themes/contenus/"
 [[redirects]]
 from = "/publications/2025-07-22-trois-nouveaux-guides-pratiques-pour-une-communication-plus-responsable/index.html"
 to = "/publications/2025-05-22-trois-nouveaux-guides-pratiques-pour-une-communication-plus-responsable/"
+
+[[redirects]]
+from = "/faire-ensemble/matthieu-delsaut/index.html"
+to = "/personnes/matthieu-delsaut/"
 
 [[redirects]]
 from = "/publications/donnees-personnelles/index.html"
@@ -199,6 +211,10 @@ from = "/strategie/feuille-de-route-1/index.html"
 to = "/strategie/feuille-de-route-communication-numerique-soutenable/"
 
 [[redirects]]
+from = "/faire-ensemble/guillaume-rouan/index.html"
+to = "/personnes/guillaume-rouan/"
+
+[[redirects]]
 from = "/equipe/guillaume-rouan/index.html"
-to = "/faire-ensemble/guillaume-rouan/"
+to = "/personnes/guillaume-rouan/"
 
