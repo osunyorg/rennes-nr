@@ -10,7 +10,7 @@ header_text: >-
 url: "/"
 slug: ""
 date: 2023-11-29T08:21:12+01:00
-lastmod: 2026-11-06T15:19:28+01:00
+lastmod: 2026-11-06T15:26:06+01:00
 meta:
   hugo:
     permalink: "/"
@@ -19,7 +19,7 @@ meta:
     slug: ""
   dates:
     created_at: 2023-10-24T07:19:59+02:00
-    updated_at: 2026-11-06T15:19:28+01:00
+    updated_at: 2026-11-06T15:26:06+01:00
     published_at: 2023-11-29T08:21:12+01:00
 search:
   id: "64cf11fe-6167-461b-b6cf-47427948226f"
@@ -31,7 +31,7 @@ search:
     Accueil
 
   body: >-
-    <p>Dernières publications </p>  <p>   <br>Le travail mené dans le cadre de ce groupe de travail a vocation, au-delà de la construction d’une feuille de route à l’échelle de Rennes Métropole, de partager une méthode de travail et des réflexions pour construire une communication publique en biens communs dans un contexte de transitions.</p>  <p>Un arbre a des téléphones à la place des fruits. “On appelle cette espèce un Cotinus iphonus” “Ha je pensais que c'était un SamSungolus !”</p>  <p>Contactez-nous <br>/equipe</p>  <p>En savoir plus <br>/equipe/methodologie</p>  <p> L'équipe </p>  <p>Chargé des médias numériques aux Champs Libres</p>
+    <p>Dernières publications </p>  <p> Thèmes </p>
 
 breadcrumbs:
   - title: >-
@@ -53,6 +53,7 @@ translationKey: communication-website-page-8519619d-6e22-44bf-b184-ed00a1cca6af
 
 
 children:
+  - "pages/qui-sommes-nous/_index.html"
   - "posts/_index.html"
   - "pages/strategie/_index.html"
   - "pages/experimentations/_index.html"
@@ -64,6 +65,10 @@ children:
   - "pages/declaration-dinteret-general/_index.html"
   - "files/_index.html"
 child_pages:
+  - permalink: "/qui-sommes-nous/"
+    path: "/pages/qui-sommes-nous"
+    slug: "qui-sommes-nous"
+    file: "content/fr/pages/qui-sommes-nous/_index.html"
   - permalink: "/publications/"
     path: "/posts"
     slug: "publications"
@@ -76,9 +81,9 @@ child_pages:
     path: "/pages/experimentations"
     slug: "experimentations"
     file: "content/fr/pages/experimentations/_index.html"
-  - permalink: "/faire-ensemble/"
+  - permalink: "/personnes/"
     path: "/persons"
-    slug: "faire-ensemble"
+    slug: "personnes"
     file: "content/fr/persons/_index.html"
   - permalink: "/themes/"
     path: "/pages/themes"
@@ -110,7 +115,7 @@ header_cta:
 
 
 contents_reading_time:
-  seconds: 25
+  seconds: 1
   text: >-
     moins d'une minute
 contents:
@@ -169,45 +174,11 @@ contents:
 
 
   - kind: block
-    template: call_to_action
-
-
-    ranks:
-      base: 2
-    top:
-      active: true
-      description: >-
-        <p>Le travail mené dans le cadre de ce groupe de travail a vocation, au-delà de la construction d’une feuille de route à l’échelle de Rennes Métropole, de partager une méthode de travail et des réflexions pour construire une communication publique en biens communs dans un contexte de transitions.</p>
-    data:
-      layout: accent_background
-      text: >-
-        <p>Le travail mené dans le cadre de ce groupe de travail a vocation, au-delà de la construction d’une feuille de route à l’échelle de Rennes Métropole, de partager une méthode de travail et des réflexions pour construire une communication publique en biens communs dans un contexte de transitions.</p>
-      image:
-        id: "045415a0-81a2-4387-bfc0-6c7269cc1e60"
-        alt: >-
-          Un arbre a des téléphones à la place des fruits. “On appelle cette espèce un Cotinus iphonus” “Ha je pensais que c'était un SamSungolus !”
-
-      buttons:
-        - 
-          title: >-
-            Contactez-nous
-          url: >-
-            /equipe
-          target_blank: false
-        - 
-          title: >-
-            En savoir plus
-          url: >-
-            /equipe/methodologie
-          target_blank: false
-
-
-  - kind: block
-    template: persons
+    template: categories
     title: >-
-      L'équipe
+      Thèmes
     slug: >-
-      l-equipe
+      themes
     ranks:
       base: 2
       self: 2
@@ -216,36 +187,92 @@ contents:
       active: true
       title: 
         value: >-
-          L'équipe
+          Thèmes
         heading: 2
 
     data:
+      layout: list
 
-      layout: grid
       options:
-        image: true
-        summary: true
-        link: true
-        contact: false
+        count: false
+        image: false
+        summary: false
 
-      persons:
-        - permalink: "/faire-ensemble/matthieu-delsaut/"
-          path: "/persons/matthieu-delsaut"
-          slug: "matthieu-delsaut"
-          file: "content/fr/persons/matthieu-delsaut.html"
-
-        - permalink: "/faire-ensemble/estelle-soleillant/"
-          path: "/persons/estelle-soleillant"
-          slug: "estelle-soleillant"
-          file: "content/fr/persons/estelle-soleillant.html"
-
-        - permalink: "/faire-ensemble/guillaume-rouan/"
-          path: "/persons/guillaume-rouan"
-          slug: "guillaume-rouan"
-          file: "content/fr/persons/guillaume-rouan.html"
-          role: >-
-            Chargé des médias numériques aux Champs Libres
-      quantity: 3
+      category_kind: posts
+      taxonomy_id: 1d010587-2c71-447e-b624-e31bcef593e7
+      taxonomy:
+        permalink: "/publications/themes/"
+        path: "/posts_categories/themes"
+        slug: "themes"
+        file: "content/fr/posts_categories/themes/_index.html"
+        name: "Thèmes"
+      categories:
+        - permalink: "/publications/themes/accessibilite/"
+          path: "/posts_categories/themes/accessibilite"
+          slug: "themes/accessibilite"
+          file: "content/fr/posts_categories/themes/accessibilite/_index.html"
+          name: "Thèmes"
+          count: 4
+        - permalink: "/publications/themes/algorithme/"
+          path: "/posts_categories/themes/algorithme"
+          slug: "themes/algorithme"
+          file: "content/fr/posts_categories/themes/algorithme/_index.html"
+          name: "Thèmes"
+          count: 3
+        - permalink: "/publications/themes/contenus/"
+          path: "/posts_categories/themes/contenus"
+          slug: "themes/contenus"
+          file: "content/fr/posts_categories/themes/contenus/_index.html"
+          name: "Thèmes"
+          count: 5
+        - permalink: "/publications/themes/donnees-personnelles/"
+          path: "/posts_categories/themes/donnees-personnelles"
+          slug: "themes/donnees-personnelles"
+          file: "content/fr/posts_categories/themes/donnees-personnelles/_index.html"
+          name: "Thèmes"
+          count: 1
+        - permalink: "/publications/themes/eco-conception/"
+          path: "/posts_categories/themes/eco-conception"
+          slug: "themes/eco-conception"
+          file: "content/fr/posts_categories/themes/eco-conception/_index.html"
+          name: "Thèmes"
+          count: 10
+        - permalink: "/publications/themes/hebergement/"
+          path: "/posts_categories/themes/hebergement"
+          slug: "themes/hebergement"
+          file: "content/fr/posts_categories/themes/hebergement/_index.html"
+          name: "Thèmes"
+          count: 2
+        - permalink: "/publications/themes/interet-general/"
+          path: "/posts_categories/themes/interet-general"
+          slug: "themes/interet-general"
+          file: "content/fr/posts_categories/themes/interet-general/_index.html"
+          name: "Thèmes"
+          count: 3
+        - permalink: "/publications/themes/reseaux-sociaux/"
+          path: "/posts_categories/themes/reseaux-sociaux"
+          slug: "themes/reseaux-sociaux"
+          file: "content/fr/posts_categories/themes/reseaux-sociaux/_index.html"
+          name: "Thèmes"
+          count: 2
+        - permalink: "/publications/themes/marches-publics/"
+          path: "/posts_categories/themes/marches-publics"
+          slug: "themes/marches-publics"
+          file: "content/fr/posts_categories/themes/marches-publics/_index.html"
+          name: "Thèmes"
+          count: 2
+        - permalink: "/publications/themes/mesure/"
+          path: "/posts_categories/themes/mesure"
+          slug: "themes/mesure"
+          file: "content/fr/posts_categories/themes/mesure/_index.html"
+          name: "Thèmes"
+          count: 5
+        - permalink: "/publications/themes/ui-ux/"
+          path: "/posts_categories/themes/ui-ux"
+          slug: "themes/ui-ux"
+          file: "content/fr/posts_categories/themes/ui-ux/_index.html"
+          name: "Thèmes"
+          count: 4
 
 
 
